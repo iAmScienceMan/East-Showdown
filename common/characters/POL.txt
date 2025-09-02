@@ -1,4 +1,36 @@
 characters = {
+	POL_Robert_Kosowski = {
+		name = POL_Robert_Kosowski
+		portraits = {
+			army = {
+				#small = GFX_portrait_POL_Robert_Kosowski
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = theorist
+			idea_token = POL_Robert_Kosowski
+			traits = { 
+				military_theorist
+			}
+		}
+	}
+	POL_Jacek_Pszczola = {
+		name = POL_Jacek_Pszczola
+		portraits = {
+			army = {
+				#small = GFX_portrait_POL_Jacek_Pszczola
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = POL_Jacek_Pszczola
+			traits = { 
+				air_warfare_theorist
+			}
+		}
+	}
 Andj = {
 	name = Andj
 	portraits = {
@@ -51,12 +83,14 @@ POL_Donald_Tusk = {
 		slot = political_advisor
 		idea_token = POL_Donald_Tusk
 		can_be_fired = no
+		visible = {
+			has_country_flag = POL_3_kabinet_tuska
+		}
 		allowed = {
 			custom_trigger_tooltip = {
 				tooltip = POL_3_kabinet_tuska_tt
 				has_country_flag = POL_3_kabinet_tuska
 			}
-
 			original_tag = POL
 		}
 		available = {
@@ -136,13 +170,16 @@ POL_Mariusz_Blaszczak = {
 	}
 	advisor={
 		cost = 150
-		slot = political_advisor
+		slot = high_command
 		idea_token = POL_Mariusz_Blaszczak
 		allowed = {
 			original_tag = POL
 		}
 		available = {
-			has_country_flag = POL_2_kabinet_moravetskogo
+			custom_trigger_tooltip = {
+				tooltip = POL_2_kabinet_moravetskogo_tt
+				has_country_flag = POL_2_kabinet_moravetskogo
+			}
 			OR = {
 				has_government = neutrality
 				has_government = democratic
@@ -167,6 +204,9 @@ POL_Wladyslaw_Kosiniak = {
 		idea_token = POL_Wladyslaw_Kosiniak
 		allowed = {
 			original_tag = POL
+		}
+		visible = {
+			has_country_flag = POL_3_kabinet_tuska
 		}
 		available = {
 			custom_trigger_tooltip = {
@@ -199,7 +239,10 @@ POL_Magdalena_Rzeczkowska = {
 			original_tag = POL
 		}
 		available = {
-			has_country_flag = POL_2_kabinet_moravetskogo
+			custom_trigger_tooltip = {
+				tooltip = POL_2_kabinet_moravetskogo_tt
+				has_country_flag = POL_2_kabinet_moravetskogo
+			}
 			OR = {
 				has_government = neutrality
 				has_government = democratic
@@ -224,6 +267,9 @@ POL_Andrzej_Kostowniak = {
 		idea_token = POL_Andrzej_Kostowniak
 		allowed = {
 			original_tag = POL
+		}
+		visible = {
+			has_country_flag = POL_3_kabinet_moravetskogo
 		}
 		available = {
 			custom_trigger_tooltip = {
@@ -254,6 +300,9 @@ POL_Andrzej_Domanski = {
 		idea_token = POL_Andrzej_Domanski
 		allowed = {
 			original_tag = POL
+		}
+		visible = {
+			has_country_flag = POL_3_kabinet_tuska
 		}
 		available = {
 			custom_trigger_tooltip = {
@@ -286,7 +335,10 @@ POL_Zbigniew_Rau = {
 			original_tag = POL
 		}
 		available = {
-			has_country_flag = POL_2_kabinet_moravetskogo
+			custom_trigger_tooltip = {
+				tooltip = POL_2_kabinet_moravetskogo_tt
+				has_country_flag = POL_2_kabinet_moravetskogo
+			}
 			OR = {
 				has_government = neutrality
 				has_government = democratic
@@ -338,6 +390,9 @@ POL_Radoslaw_Sikorski = {
 		allowed = {
 			original_tag = POL
 		}
+		visible = {
+			has_country_flag = POL_3_kabinet_tuska
+		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = POL_3_kabinet_tuska_tt
@@ -369,7 +424,10 @@ POL_Andrzej_Adamczyk = {
 			original_tag = POL
 		}
 		available = {
-			has_country_flag = POL_2_kabinet_moravetskogo
+			custom_trigger_tooltip = {
+				tooltip = POL_2_kabinet_moravetskogo_tt
+				has_country_flag = POL_2_kabinet_moravetskogo
+			}
 			OR = {
 				has_government = neutrality
 				has_government = democratic
@@ -394,6 +452,9 @@ POL_Alvin_Gayadur = {
 		idea_token = POL_Alvin_Gayadur
 		allowed = {
 			original_tag = POL
+		}
+		visible = {
+			has_country_flag = POL_3_kabinet_moravetskogo
 		}
 		available = {
 			custom_trigger_tooltip = {
@@ -425,6 +486,9 @@ POL_Dariusz_Klimczak = {
 		allowed = {
 			original_tag = POL
 		}
+		visible = {
+			has_country_flag = POL_3_kabinet_tuska
+		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = POL_3_kabinet_tuska_tt
@@ -454,6 +518,9 @@ POL_Szymon_Szynkowski = {
 		idea_token = POL_Szymon_Szynkowski
 		allowed = {
 			original_tag = POL
+		}
+		visible = {
+			has_country_flag = POL_3_kabinet_moravetskogo
 		}
 		available = {
 			custom_trigger_tooltip = {
@@ -511,6 +578,9 @@ POL_Adam_Bodnar = {
 		allowed = {
 			original_tag = POL
 		}
+		visible = {
+			has_country_flag = POL_3_kabinet_tuska
+		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = POL_3_kabinet_tuska_tt
@@ -542,7 +612,10 @@ POL_Mariusz_Kaminski = {
 			original_tag = POL
 		}
 		available = {
-			has_country_flag = POL_2_kabinet_moravetskogo
+			custom_trigger_tooltip = {
+				tooltip = POL_2_kabinet_moravetskogo_tt
+				has_country_flag = POL_2_kabinet_moravetskogo
+			}
 			OR = {
 				has_government = neutrality
 				has_government = democratic
@@ -567,6 +640,9 @@ POL_Pavel_Shefernaker = {
 		idea_token = POL_Pavel_Shefernaker
 		allowed = {
 			original_tag = POL
+		}
+		visible = {
+			has_country_flag = POL_3_kabinet_moravetskogo
 		}
 		available = {
 			custom_trigger_tooltip = {
@@ -597,6 +673,9 @@ POL_Tomasz_Siemoniak = {
 		idea_token = POL_Tomasz_Siemoniak
 		allowed = {
 			original_tag = POL
+		}
+		visible = {
+			has_country_flag = POL_3_kabinet_tuska
 		}
 		available = {
 			custom_trigger_tooltip = {
@@ -629,7 +708,10 @@ POL_Yaroslav_Govin = {
 			original_tag = POL
 		}
 		available = {
-			has_country_flag = POL_2_kabinet_moravetskogo
+			custom_trigger_tooltip = {
+				tooltip = POL_2_kabinet_moravetskogo_tt
+				has_country_flag = POL_2_kabinet_moravetskogo
+			}
 			OR = {
 				has_government = neutrality
 				has_government = democratic
@@ -654,6 +736,9 @@ POL_Magdalena_Sroka = {
 		idea_token = POL_Magdalena_Sroka
 		allowed = {
 			original_tag = POL
+		}
+		visible = {
+			has_country_flag = POL_3_kabinet_moravetskogo
 		}
 		available = {
 			custom_trigger_tooltip = {
@@ -684,6 +769,9 @@ POL_Dariusz_Wieczorek = {
 		idea_token = POL_Dariusz_Wieczorek
 		allowed = {
 			original_tag = POL
+		}
+		visible = {
+			has_country_flag = POL_3_kabinet_tuska
 		}
 		available = {
 			custom_trigger_tooltip = {
@@ -716,7 +804,10 @@ POL_Grzegorz_Puda = {
 			original_tag = POL
 		}
 		available = {
-			has_country_flag = POL_2_kabinet_moravetskogo
+			custom_trigger_tooltip = {
+				tooltip = POL_2_kabinet_moravetskogo_tt
+				has_country_flag = POL_2_kabinet_moravetskogo
+			}
 			OR = {
 				has_government = neutrality
 				has_government = democratic
@@ -768,6 +859,9 @@ POL_Czeslaw_Sikierski = {
 		allowed = {
 			original_tag = POL
 		}
+		visible = {
+			has_country_flag = POL_3_kabinet_tuska
+		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = POL_3_kabinet_tuska_tt
@@ -799,7 +893,10 @@ POL_Adam_Niedzielski = {
 			original_tag = POL
 		}
 		available = {
-			has_country_flag = POL_2_kabinet_moravetskogo
+			custom_trigger_tooltip = {
+				tooltip = POL_2_kabinet_moravetskogo_tt
+				has_country_flag = POL_2_kabinet_moravetskogo
+			}
 			OR = {
 				has_government = neutrality
 				has_government = democratic
@@ -825,8 +922,14 @@ POL_Ewa_Krajewska = {
 		allowed = {
 			original_tag = POL
 		}
+		visible = {
+			has_country_flag = POL_3_kabinet_moravetskogo
+		}
 		available = {
-            has_country_flag = POL_3_kabinet_moravetskogo
+            custom_trigger_tooltip = {
+				tooltip = POL_3_kabinet_moravetskogo_tt
+				has_country_flag = POL_3_kabinet_moravetskogo
+			}
 			OR = {
 				has_government = neutrality
 				has_government = democratic
@@ -851,6 +954,9 @@ POL_Izabela_Leszczyna = {
 		idea_token = POL_Izabela_Leszczyna
 		allowed = {
 			original_tag = POL
+		}
+		visible = {
+			has_country_flag = POL_3_kabinet_tuska
 		}
 		available = {
 			custom_trigger_tooltip = {
@@ -1697,20 +1803,20 @@ Raimund_Andcheichak = {
 			small =  "gfx/leaders/POL/Advitors/Raimund_Andcheichak.png"
 		}
 	}
-		advisor={
-			slot = army_cic
-			idea_token = POL_Raimund_Andcheichak
-			ledger = army
-			allowed = {
-				original_tag = POL
-			}
-			traits = {
-				army_infantry_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1
-			}
+	advisor = {
+		slot = army_gs
+		idea_token = POL_Raimund_Andcheichak
+		ledger = army
+		allowed = {
+			original_tag = POL
+		}
+		traits = {
+			army_infantry_2
+		}
+		cost = 100
+		ai_will_do = {
+			factor = 1
+		}
 	}
 	field_marshal = {
 		traits={
@@ -1928,7 +2034,7 @@ Tomash_Piotrovskiy = {
 		}
 	}
 		advisor={
-			slot = army_gs
+			slot = army_cic
 			idea_token = POL_Tomash_Piotrovskiy
 			ledger = army
 			allowed = {
@@ -1966,6 +2072,7 @@ Slavomir_Voucehovskiy = {
 #			small = "СЮДА ЕБАНУТЬ DDS ПОРТРЕТ"
 		}
 	}
+	
 	field_marshal = {
 			advisor={
 			slot = army_cic

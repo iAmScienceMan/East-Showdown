@@ -37,12 +37,14 @@ add_ideas = {
 	POL_Developing_economy
 	the_free_media
 	small_autonomy
-	service_age_55
+	service_age_60
 	eu_member
 	infrastructure_increased
 	rescue_increased
 	social_increased
 	medical_increased
+	mobilization_age_18
+	birth_rate3
 }
 
 set_country_flag = POL_2_kabinet_moravetskogo
@@ -99,20 +101,27 @@ recruit_character = POL_Izabela_Leszczyna
 activate_advisor = POL_Zbigniew_Ziobro
 activate_advisor = POL_Mateusz_Morawiecki
 activate_advisor = POL_Mariusz_Blaszczak
+recruit_character = Tomash_Piotrovskiy
+activate_advisor = POL_Tomash_Piotrovskiy
 activate_advisor = POL_Magdalena_Rzeczkowska
 activate_advisor = POL_Zbigniew_Rau
 
 recruit_character = Yanush_Adamchak
 recruit_character = Raimund_Andcheichak
+activate_advisor = POL_Raimund_Andcheichak
 recruit_character = Wieslaw_Kukula
 recruit_character = Pjotr_Blasheysh
 recruit_character = Yaroslav_Gromadzhinskiy
 recruit_character = Adam_Djoks
 recruit_character = Yaroslav_Mika
-activate_advisor = Tomash_Piotrovskiy
-activate_advisor = Slavomir_Voucehovskiy
-activate_advisor = Marek_Sokolovskiy
-
+recruit_character = Slavomir_Voucehovskiy
+activate_advisor = POL_Slavomir_Voucehovskiy
+recruit_character = Marek_Sokolovskiy
+activate_advisor = POL_Marek_Sokolovskiy
+recruit_character = POL_Robert_Kosowski
+activate_advisor = POL_Robert_Kosowski
+recruit_character = POL_Jacek_Pszczola
+activate_advisor = POL_Jacek_Pszczola
 
 
 recruit_character = POL_Andrzej_Reudowicz
