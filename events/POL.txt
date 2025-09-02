@@ -293,11 +293,17 @@ country_event = {
 	
     option = {
         name = pol.13.a
-
+		deactivate_advisor = POL_Zbigniew_Rau
+		deactivate_advisor = POL_Magdalena_Rzeczkowska
+		deactivate_advisor = POL_Zbigniew_Ziobro
+		deactivate_advisor = POL_Mariusz_Kaminski
+		deactivate_advisor = POL_Grzegorz_Puda
+		activate_advisor = POL_Anna_Gembicka
 		activate_advisor = POL_Alvin_Gayadur
-		activate_advisor = POL_Wladyslaw_Kosiniak
 		activate_advisor = POL_Andrzej_Kostowniak
 		activate_advisor = POL_Szymon_Szynkowski
+		activate_advisor = POL_Martin_Warhol
+		activate_advisor = POL_Pavel_Shefernaker
 
 		clr_country_flag = POL_2_kabinet_moravetskogo
 		set_country_flag = POL_3_kabinet_moravetskogo
@@ -323,6 +329,17 @@ country_event = {
 	
     option = {
         name = pol.14.a
+		deactivate_advisor = POL_Zbigniew_Rau
+		deactivate_advisor = POL_Magdalena_Rzeczkowska
+		deactivate_advisor = POL_Zbigniew_Ziobro
+		deactivate_advisor = POL_Mariusz_Kaminski
+		deactivate_advisor = POL_Grzegorz_Puda
+		activate_advisor = POL_Anna_Gembicka
+		activate_advisor = POL_Alvin_Gayadur
+		activate_advisor = POL_Andrzej_Kostowniak
+		activate_advisor = POL_Szymon_Szynkowski
+		activate_advisor = POL_Martin_Warhol
+		activate_advisor = POL_Pavel_Shefernaker
         
 		clr_country_flag = POL_2_kabinet_moravetskogo
 		set_country_flag = POL_3_kabinet_moravetskogo
@@ -330,11 +347,6 @@ country_event = {
 		set_country_flag = POL_parlament_elections_ended
 		clr_country_flag = POL_parlament_elections_started
 		complete_national_focus = POL_Complete_Victory_PiS
-
-		activate_advisor = POL_Alvin_Gayadur
-		activate_advisor = POL_Wladyslaw_Kosiniak
-		activate_advisor = POL_Andrzej_Kostowniak
-		activate_advisor = POL_Szymon_Szynkowski
     }
 }
 #3 Кабинет туска

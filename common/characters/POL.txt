@@ -113,6 +113,11 @@ POL_Mateusz_Morawiecki = {
 		}
 	}
 	advisor={
+		visible = {
+			NOT = {
+				has_country_flag = POL_3_kabinet_tuska
+			}
+		}
 		cost = 150
 		slot = political_advisor
 		idea_token = POL_Mateusz_Morawiecki
@@ -175,14 +180,22 @@ POL_Mariusz_Blaszczak = {
 		allowed = {
 			original_tag = POL
 		}
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = POL_2_kabinet_moravetskogo_tt
-				has_country_flag = POL_2_kabinet_moravetskogo
-			}
+		visible = {
 			OR = {
-				has_government = neutrality
-				has_government = democratic
+				has_country_flag = POL_2_kabinet_moravetskogo
+				has_country_flag = POL_3_kabinet_moravetskogo
+			}
+		}
+		available = {
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = POL_2_kabinet_moravetskogo_tt
+					has_country_flag = POL_2_kabinet_moravetskogo
+				}
+				custom_trigger_tooltip = {
+					tooltip = POL_3_kabinet_moravetskogo_tt
+					has_country_flag = POL_3_kabinet_moravetskogo
+				}
 			}
 		}
 		traits = {
@@ -200,7 +213,7 @@ POL_Wladyslaw_Kosiniak = {
 	}
 	advisor={
 		cost = 150
-		slot = political_advisor
+		slot = high_command
 		idea_token = POL_Wladyslaw_Kosiniak
 		allowed = {
 			original_tag = POL
@@ -237,6 +250,9 @@ POL_Magdalena_Rzeczkowska = {
 		idea_token = POL_Magdalena_Rzeczkowska
 		allowed = {
 			original_tag = POL
+		}
+		visible = {
+			has_country_flag = POL_2_kabinet_moravetskogo
 		}
 		available = {
 			custom_trigger_tooltip = {
@@ -334,6 +350,9 @@ POL_Zbigniew_Rau = {
 		allowed = {
 			original_tag = POL
 		}
+		visible = {
+			has_country_flag = POL_2_kabinet_moravetskogo
+		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = POL_2_kabinet_moravetskogo_tt
@@ -364,14 +383,21 @@ POL_Zbigniew_Ziobro = {
 		allowed = {
 			original_tag = POL
 		}
+		visible = {
+			has_country_flag = POL_2_kabinet_moravetskogo
+		}
 		available = {
+			custom_trigger_tooltip = {
+				tooltip = POL_2_kabinet_moravetskogo_tt
+				has_country_flag = POL_2_kabinet_moravetskogo
+			}
 			OR = {
 				has_government = neutrality
 				has_government = democratic
 			}
 		}
 		traits = {
-			POL_Foreign_Minister
+			POL_Justice_Minister
 		}
 	}
 }
@@ -422,6 +448,9 @@ POL_Andrzej_Adamczyk = {
 		idea_token = POL_Andrzej_Adamczyk
 		allowed = {
 			original_tag = POL
+		}
+		visible = {
+			has_country_flag = POL_2_kabinet_moravetskogo
 		}
 		available = {
 			custom_trigger_tooltip = {
@@ -533,7 +562,7 @@ POL_Szymon_Szynkowski = {
 			}
 		}
 		traits = {
-			POL_Justice_Minister
+			POL_Foreign_Minister
 		}
 	}
 }
@@ -552,7 +581,14 @@ POL_Martin_Warhol = {
 		allowed = {
 			original_tag = POL
 		}
+		visible = {
+			has_country_flag = POL_3_kabinet_moravetskogo
+		}
 		available = {
+			custom_trigger_tooltip = {
+				tooltip = POL_3_kabinet_moravetskogo_tt
+				has_country_flag = POL_3_kabinet_moravetskogo
+			}
 			OR = {
 				has_government = neutrality
 				has_government = democratic
@@ -610,6 +646,9 @@ POL_Mariusz_Kaminski = {
 		idea_token = POL_Mariusz_Kaminski
 		allowed = {
 			original_tag = POL
+		}
+		visible = {
+			has_country_flag = POL_2_kabinet_moravetskogo
 		}
 		available = {
 			custom_trigger_tooltip = {
@@ -707,6 +746,9 @@ POL_Yaroslav_Govin = {
 		allowed = {
 			original_tag = POL
 		}
+		visible = {
+			has_country_flag = POL_2_kabinet_moravetskogo
+		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = POL_2_kabinet_moravetskogo_tt
@@ -803,6 +845,9 @@ POL_Grzegorz_Puda = {
 		allowed = {
 			original_tag = POL
 		}
+		visible = {
+			has_country_flag = POL_2_kabinet_moravetskogo
+		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = POL_2_kabinet_moravetskogo_tt
@@ -833,7 +878,14 @@ POL_Anna_Gembicka = {
 		allowed = {
 			original_tag = POL
 		}
+		visible = {
+			has_country_flag = POL_3_kabinet_moravetskogo
+		}
 		available = {
+			custom_trigger_tooltip = {
+				tooltip = POL_3_kabinet_moravetskogo_tt
+				has_country_flag = POL_3_kabinet_moravetskogo
+			}
 			OR = {
 				has_government = neutrality
 				has_government = democratic
@@ -891,6 +943,9 @@ POL_Adam_Niedzielski = {
 		idea_token = POL_Adam_Niedzielski
 		allowed = {
 			original_tag = POL
+		}
+		visible = {
+			has_country_flag = POL_2_kabinet_moravetskogo
 		}
 		available = {
 			custom_trigger_tooltip = {

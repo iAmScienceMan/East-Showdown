@@ -56,6 +56,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = Yes
 }
+
 recruit_character = Eji_Bizevskiy
 recruit_character = Zenon_brzhyshko
 recruit_character = Stanislav_chonek
@@ -74,13 +75,13 @@ recruit_character = POL_Mariusz_Blaszczak
 recruit_character = POL_Magdalena_Rzeczkowska
 recruit_character = POL_Zbigniew_Rau
 recruit_character = POL_Krzysztof_Bosak
-recruit_character = POL_Robert_Bedroni
-recruit_character = POL_Andrzej_Adamczyk
+#recruit_character = POL_Robert_Bedroni
+#recruit_character = POL_Andrzej_Adamczyk
 recruit_character = POL_Zbigniew_Ziobro
 recruit_character = POL_Mariusz_Kaminski
-recruit_character = POL_Yaroslav_Govin
+#recruit_character = POL_Yaroslav_Govin
 recruit_character = POL_Grzegorz_Puda
-recruit_character = POL_Adam_Niedzielski
+#recruit_character = POL_Adam_Niedzielski
 recruit_character = POL_Alvin_Gayadur
 recruit_character = POL_Andrzej_Kostowniak
 recruit_character = POL_Szymon_Szynkowski
@@ -98,30 +99,19 @@ recruit_character = POL_Tomasz_Siemoniak
 recruit_character = POL_Dariusz_Wieczorek
 recruit_character = POL_Czeslaw_Sikierski
 recruit_character = POL_Izabela_Leszczyna
-activate_advisor = POL_Zbigniew_Ziobro
-activate_advisor = POL_Mateusz_Morawiecki
-activate_advisor = POL_Mariusz_Blaszczak
 recruit_character = Tomash_Piotrovskiy
-activate_advisor = POL_Tomash_Piotrovskiy
-activate_advisor = POL_Magdalena_Rzeczkowska
-activate_advisor = POL_Zbigniew_Rau
 
 recruit_character = Yanush_Adamchak
 recruit_character = Raimund_Andcheichak
-activate_advisor = POL_Raimund_Andcheichak
 recruit_character = Wieslaw_Kukula
 recruit_character = Pjotr_Blasheysh
 recruit_character = Yaroslav_Gromadzhinskiy
 recruit_character = Adam_Djoks
 recruit_character = Yaroslav_Mika
 recruit_character = Slavomir_Voucehovskiy
-activate_advisor = POL_Slavomir_Voucehovskiy
 recruit_character = Marek_Sokolovskiy
-activate_advisor = POL_Marek_Sokolovskiy
 recruit_character = POL_Robert_Kosowski
-activate_advisor = POL_Robert_Kosowski
 recruit_character = POL_Jacek_Pszczola
-activate_advisor = POL_Jacek_Pszczola
 
 
 recruit_character = POL_Andrzej_Reudowicz
@@ -147,7 +137,20 @@ recruit_character = POL_Anna_Zalewska
 recruit_character = POL_Piotr_Glinski
 recruit_character = POL_Elzbieta_Witek
 
-
+#Кабинет Моравецкого 1
+activate_advisor = POL_Zbigniew_Ziobro
+activate_advisor = POL_Mateusz_Morawiecki
+activate_advisor = POL_Mariusz_Blaszczak
+activate_advisor = POL_Tomash_Piotrovskiy
+activate_advisor = POL_Magdalena_Rzeczkowska
+activate_advisor = POL_Zbigniew_Rau
+activate_advisor = POL_Slavomir_Voucehovskiy
+activate_advisor = POL_Marek_Sokolovskiy
+activate_advisor = POL_Robert_Kosowski
+activate_advisor = POL_Jacek_Pszczola
+activate_advisor = POL_Raimund_Andcheichak
+activate_advisor = POL_Mariusz_Kaminski
+activate_advisor = POL_Grzegorz_Puda
 
 create_navy_leader = {
 	name = "Yardley Leonard"

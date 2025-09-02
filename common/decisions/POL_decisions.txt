@@ -284,8 +284,8 @@ POL_parlament_elections_category = {
 	third_kabinet_tuska = {
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = POL_3_kabinet_moravetskogo_tt
-				has_country_flag = POL_3_kabinet_moravetskogo
+				tooltip = POL_3_kabinet_tuska_tt
+				has_country_flag = POL_3_kabinet_tuska
 			}
 		}
 		activation = {
