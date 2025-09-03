@@ -3,7 +3,7 @@ state = {
 	name = "STATE_78" 
 	manpower = 4585924 
 	
-	state_category = metropolis 
+	state_category = megalopolis
 	
 	resources = { 
 		aluminium = 90 

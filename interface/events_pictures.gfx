@@ -2636,4 +2636,8 @@ spriteTypes = {
 		name = "GFX_country_event_ukr_783"
 		textureFile = "gfx/event_pictures/country_event_ukr_783.jpg"
 	}
+	spriteType = {
+		name = "GFX_country_event_pol.6"
+		textureFile = "gfx/event_pictures/POL/country_event_pol.6.dds"
+	}
 }

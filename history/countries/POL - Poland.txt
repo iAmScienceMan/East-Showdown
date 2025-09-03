@@ -45,6 +45,7 @@ add_ideas = {
 	medical_increased
 	mobilization_age_18
 	birth_rate3
+	medium_corruption_level
 }
 
 set_country_flag = POL_2_kabinet_moravetskogo
@@ -136,6 +137,7 @@ recruit_character = POL_Janusz_Kowalski
 recruit_character = POL_Anna_Zalewska
 recruit_character = POL_Piotr_Glinski
 recruit_character = POL_Elzbieta_Witek
+recruit_character = POL_Tomasz_Mathea
 
 #Кабинет Моравецкого 1
 activate_advisor = POL_Zbigniew_Ziobro
@@ -151,6 +153,7 @@ activate_advisor = POL_Jacek_Pszczola
 activate_advisor = POL_Raimund_Andcheichak
 activate_advisor = POL_Mariusz_Kaminski
 activate_advisor = POL_Grzegorz_Puda
+activate_advisor = POL_Tomasz_Mathea
 
 create_navy_leader = {
 	name = "Yardley Leonard"

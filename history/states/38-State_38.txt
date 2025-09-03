@@ -3,7 +3,7 @@ state = {
 	name = "STATE_38" 
 	manpower = 1176576 
 	
-	state_category = metropolis 
+	state_category = megalopolis 
 	history = { 
 		owner = POL 
 		

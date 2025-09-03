@@ -1,4 +1,20 @@
 characters = {
+	POL_Tomasz_Mathea = {
+		name = POL_Tomasz_Mathea
+		portraits = {
+			army = {
+				#small = GFX_portrait_POL_Tomasz_Mathea
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = POL_Tomasz_Mathea
+			traits = { 
+				naval_theorist
+			}
+		}
+	}
 	POL_Robert_Kosowski = {
 		name = POL_Robert_Kosowski
 		portraits = {
@@ -112,10 +128,11 @@ POL_Mateusz_Morawiecki = {
 			small = "/gfx/leaders/POL/Advitors/mateushmoravitskiy.dds"
 		}
 	}
-	advisor={
+	advisor = {
 		visible = {
-			NOT = {
-				has_country_flag = POL_3_kabinet_tuska
+			OR = {
+				has_country_flag = POL_2_kabinet_moravetskogo
+				has_country_flag = POL_3_kabinet_moravetskogo
 			}
 		}
 		cost = 150
@@ -127,8 +144,20 @@ POL_Mateusz_Morawiecki = {
 		}
 		available = {
 			OR = {
-				has_government = neutrality
-				has_government = democratic
+				custom_trigger_tooltip = {
+					tooltip = POL_2_kabinet_moravetskogo_tt
+					has_country_flag = POL_2_kabinet_moravetskogo
+				}
+				custom_trigger_tooltip = {
+					tooltip = POL_3_kabinet_moravetskogo_tt
+					has_country_flag = POL_3_kabinet_moravetskogo
+				}
+			}
+			AND = {
+				OR {
+					has_government = neutrality
+					has_government = democratic
+				}
 			}
 		}
 		traits = {
@@ -1866,7 +1895,7 @@ Raimund_Andcheichak = {
 			original_tag = POL
 		}
 		traits = {
-			army_infantry_2
+			army_armored_3
 		}
 		cost = 100
 		ai_will_do = {

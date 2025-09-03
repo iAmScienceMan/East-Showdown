@@ -3,7 +3,7 @@ state = {
 	name = "STATE_85" 
 	manpower = 2127284 
 	
-	state_category = large_city 
+	state_category = megalopolis
 	
 	resources = { steel = 48 } 
 	history = { 

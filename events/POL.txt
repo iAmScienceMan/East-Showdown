@@ -74,6 +74,7 @@ country_event = {
 	id = pol.6
 	title = pol.6.t
     desc = pol.6.d
+	picture = GFX_country_event_pol.6
 	
     fire_only_once = yes
 	is_triggered_only = yes
@@ -271,11 +272,18 @@ country_event = {
 		clr_country_flag = POL_parlament_elections_started
 		complete_national_focus = POL_Pobeda_platforms
 		
+		deactivate_advisor = POL_Mateusz_Morawiecki
+		deactivate_advisor = POL_Zbigniew_Rau
+		deactivate_advisor = POL_Magdalena_Rzeczkowska
+		deactivate_advisor = POL_Zbigniew_Ziobro
+		deactivate_advisor = POL_Mariusz_Kaminski
+		deactivate_advisor = POL_Grzegorz_Puda
+		activate_advisor = POL_Izabela_Leszczyna
 		activate_advisor = POL_Donald_Tusk
 		activate_advisor = POL_Dariusz_Klimczak
 		activate_advisor = POL_Wladyslaw_Kosiniak
 		activate_advisor = POL_Andrzej_Domanski
-		#activate_advisor = POL_Adam_Bodnar
+		activate_advisor = POL_Adam_Bodnar
 		activate_advisor = POL_Tomasz_Siemoniak
     }
 }
