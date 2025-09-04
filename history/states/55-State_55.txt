@@ -29,6 +29,7 @@ state = {
 		
 		buildings = { 
 			electrical_substation = 9 
+			electronic_factory = 2
 			electrical_substation_big = 8 
 			infrastructure = 3 
 			arms_factory = 4 

@@ -31,7 +31,7 @@ add_ideas = {
     POL_Polish_ambitions
     POL_Military_industrial_complex_Poland
 	POL_Monoethnic_state
-	POL_EU_member
+	#POL_EU_member
 	POL_Law_on_Defense_of_the_Motherland
 	POL_Ukrainians_at_work
 	POL_Developing_economy
@@ -1213,8 +1213,7 @@ set_technology = {
 	sov_brdm1 = 1
 	sov_brdm2 = 1
 
-	
-
+	poland_abilities = 1
 }
 
 

@@ -22,6 +22,7 @@ state = {
 		
 		buildings = { 
 			electrical_substation = 5 
+			electronic_factory = 2
 			electrical_substation_big = 2 
 			thermal_power_plant = 3 
 			solar_power_plant = 5 

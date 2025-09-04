@@ -65,7 +65,7 @@ focus_tree = {
 			custom_effect_tooltip = Poland_OSCE_misson
 			custom_effect_tooltip = OSCE_save_ukraine_from_war
 			custom_effect_tooltip = Reduce_human_dies
-			custom_effect_tooltip = Zlonsky_bro
+			#custom_effect_tooltip = Zlonsky_bro
 			army_experience = 15
 		}
 		cost = 0.2
@@ -3281,13 +3281,19 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Closing_airspace_for_the_Russian_Federation"
-			RUS = {
-				add_opinion_modifier = {
-				target = POL
-				modifier = RUS_POL_Conflict
+			custom_effect_tooltip = POL_Closing_airspace_for_the_Russian_Federation_tt
+			custom_effect_tooltip = POL_Will_worsen_relations_with_Russia_tt
+			hidden_effect = {
+				RUS = {
+					add_opinion_modifier = {
+						target = POL
+						modifier = RUS_POL_Conflict
+					}
+				}
+				country_event = { 
+					id = pol.28 
 				}
 			}
-			country_event = { id = pol.28 }
 		}
 		cost = 0.5
 		x = 9
@@ -3423,7 +3429,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Organize_trips_for_politicians_to_Kyiv"
-			custom_effect_tooltip = Zlonsky_bro
+			#custom_effect_tooltip = Zlonsky_bro
 			UKR = {
 				add_stability = 0.025
 			}
@@ -3452,18 +3458,21 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Expel_Russian_diplomats"
-			
-			RUS = {
-				add_opinion_modifier = {
-				target = POL
-				modifier = RUS_POL_Conflict_2
-				}
-				remove_opinion_modifier = {
+			custom_effect_tooltip = POL_Expel_Russian_diplomats_tt
+			custom_effect_tooltip = POL_Will_worsen_relations_with_Russia_tt
+			hidden_effect = {
+				RUS = {
+					add_opinion_modifier = {
 					target = POL
-					modifier = RUS_POL_Conflict
+					modifier = RUS_POL_Conflict_2
+					}
+					remove_opinion_modifier = {
+						target = POL
+						modifier = RUS_POL_Conflict
+					}
 				}
-			}
-			custom_effect_tooltip = Zlonsky_bro
+			}	
+			#custom_effect_tooltip = Zlonsky_bro
 		}
 		cost = 0.5
 		x = 0
@@ -3486,18 +3495,22 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Recognize_Putin_as_a_war_criminal"
-			RUS = {
-				remove_opinion_modifier = {
+			custom_effect_tooltip = POL_Recognize_Putin_as_a_war_criminal_tt
+			custom_effect_tooltip = POL_Will_worsen_relations_with_Russia_tt
+			hidden_effect = {
+				RUS = {
+					remove_opinion_modifier = {
+						target = POL
+						modifier = RUS_POL_Conflict_2
+					}
+					add_opinion_modifier = {
 					target = POL
-					modifier = RUS_POL_Conflict_2
+					modifier = RUS_POL_Conflict_3
+					}
 				}
-				add_opinion_modifier = {
-				target = POL
-				modifier = RUS_POL_Conflict_3
-				}
-			}
-			custom_effect_tooltip = Zlonsky_bro
-			custom_effect_tooltip = POL_Nuclear_weapons_in_Poland_2_tt
+			}	
+			#custom_effect_tooltip = Zlonsky_bro
+			#custom_effect_tooltip = POL_Nuclear_weapons_in_Poland_2_tt
 			NTO = { EU_parliament_support_add_15 = yes }
 
 		}
@@ -3522,17 +3535,21 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Close_the_passage_of_the_Russian_Federation"
-			RUS = {
-				remove_opinion_modifier = {
-					target = POL
-					modifier = RUS_POL_Conflict_3
+			custom_effect_tooltip = POL_Close_the_passage_of_the_Russian_Federation_tt
+			custom_effect_tooltip = POL_Will_worsen_relations_with_Russia_tt
+			hidden_effect = {
+				RUS = {
+					remove_opinion_modifier = {
+						target = POL
+						modifier = RUS_POL_Conflict_3
+					}
+					add_opinion_modifier = {
+						target = POL
+						modifier = RUS_POL_Conflict_4
+					}
 				}
-				add_opinion_modifier = {
-				target = POL
-				modifier = RUS_POL_Conflict_4
-				}
-			}
-			custom_effect_tooltip = Zlonsky_bro
+			}	
+			#custom_effect_tooltip = Zlonsky_bro
 		}
 		cost = 0.7
 		x = 0
@@ -3558,17 +3575,21 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Close_from_the_Russian_Federation"
-			RUS = {
-				remove_opinion_modifier = {
-					target = POL
-					modifier = RUS_POL_Conflict_4
+			custom_effect_tooltip = POL_Close_from_the_Russian_Federation_tt
+			custom_effect_tooltip = POL_Will_worsen_relations_with_Russia_tt
+			hidden_effect = {
+				RUS = {
+					remove_opinion_modifier = {
+						target = POL
+						modifier = RUS_POL_Conflict_4
+					}
+					add_opinion_modifier = {
+						target = POL
+						modifier = RUS_POL_Conflict_5
+					}
 				}
-				add_opinion_modifier = {
-				target = POL
-				modifier = RUS_POL_Conflict_5
-				}
-			}
-			custom_effect_tooltip = Zlonsky_bro
+			}	
+			#custom_effect_tooltip = Zlonsky_bro
 		}
 		cost = 0.8
 		x = 1
@@ -3593,12 +3614,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Confiscate_Russian_assets"
-			custom_effect_tooltip = POL_Nuclear_weapons_in_Poland_2_tt
+			#custom_effect_tooltip = POL_Nuclear_weapons_in_Poland_2_tt
+			custom_effect_tooltip = POL_Confiscate_Russian_assets_tt
 			add_political_power = 1000
 			add_offsite_building = {
 				type = industrial_complex
 				level = 10
 			}
+			custom_effect_tooltip = POL_Will_worsen_relations_with_Russia_tt
 		}
 		cost = 1.5
 		x = 2
@@ -3724,7 +3747,7 @@ focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus POL_Once_again_emphasize_support_for_Ukraine"
-		custom_effect_tooltip = Zlonsky_bro
+		#custom_effect_tooltip = Zlonsky_bro
 		custom_effect_tooltip = UKR_cool_bro
 	}
 	cost = 0.5
@@ -3743,7 +3766,7 @@ focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus POL_More_aggressive_rhetoric"
-		custom_effect_tooltip = Zlonsky_bro
+		#custom_effect_tooltip = Zlonsky_bro
 		increase_escalation_by_1_5 = yes
 		add_political_power = 25
 
@@ -3765,7 +3788,7 @@ focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus POL_LContinue_pressure_on_RF"
-		custom_effect_tooltip = Zlonsky_bro
+		#custom_effect_tooltip = Zlonsky_bro
 		increase_escalation_by_1 = yes
 	}
 	cost = 0.5
