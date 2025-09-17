@@ -981,6 +981,7 @@ country_event = {
 				ideology = fascism
 				popularity = 0.009
 			}
+			remove_ideas = POL_Ukrainians_at_work
 		}
 	}
 	option = {

@@ -3391,6 +3391,11 @@ spriteType = {
 
 
 	spriteType = {
+		name = "GFX_idea_POL_Refugee_camp_preparation"
+		texturefile = "gfx/interface/ideas/POL/POL_idea_Refugee_camp_preparation.dds"
+	}
+
+	spriteType = {
 		name = "GFX_idea_POL_refugees_from_ukraine_always"
 		texturefile = "gfx/interface/ideas/POL/bejancifromukraine.dds"
 	}

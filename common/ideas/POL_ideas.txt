@@ -207,6 +207,7 @@ ideas = {
 			}
 
 			POL_Refugee_camp_preparation = {
+				picture = GFX_POL_Refugee_camp_preparation
 				allowed = {
 					always = no
 				}
@@ -489,7 +490,7 @@ ideas = {
 
 				
 				POL_refugees_from_ukraine = {
-					picture = GFX_idea_POL_refugees_from_ukraine_always
+					picture = POL_refugees_from_ukraine_always
 					allowed = {
 						always = no
 					}
@@ -497,13 +498,12 @@ ideas = {
 						always = yes
 					}
 					modifier = {
-						monthly_population	= 25
+						monthly_population = 25
 					}
-
 				}
 
 				POL_refugees_from_ukraine_always = {
-					picture = GFX_idea_POL_refugees_from_ukraine_always
+					picture = POL_refugees_from_ukraine_always
 					allowed = {
 						always = no
 					}
@@ -519,7 +519,7 @@ ideas = {
 					}
 				}
 				POL_refugees_from_ukraine_always1 = {
-					picture = GFX_idea_POL_refugees_from_ukraine_always
+					picture = POL_refugees_from_ukraine_always
 					allowed = {
 						always = no
 					}
@@ -535,7 +535,7 @@ ideas = {
 					}
 				}
 				POL_refugees_from_ukraine_always2 = {
-					picture = GFX_idea_POL_refugees_from_ukraine_always
+					picture = POL_refugees_from_ukraine_always
 					allowed = {
 						always = no
 					}
@@ -551,7 +551,7 @@ ideas = {
 					}
 				}
 				POL_refugees_from_ukraine_always3 = {
-					picture = GFX_idea_POL_refugees_from_ukraine_always
+					picture = POL_refugees_from_ukraine_always
 					allowed = {
 						always = no
 					}
@@ -566,7 +566,7 @@ ideas = {
 					}
 				}
 				POL_refugees_from_ukraine_always4 = {
-					picture = GFX_idea_POL_refugees_from_ukraine_always
+					picture = POL_refugees_from_ukraine_always
 					allowed = {
 						always = no
 					}
@@ -581,7 +581,7 @@ ideas = {
 					}
 				}
 				POL_refugees_from_ukraine_always5 = {
-					picture = GFX_idea_POL_refugees_from_ukraine_always
+					picture = POL_refugees_from_ukraine_always
 					allowed = {
 						always = no
 					}
@@ -590,11 +590,11 @@ ideas = {
 					}
 					modifier = {
 						monthly_population = 0.65
-						industrial_capacity_dockyard = 0.03
-						industrial_capacity_factory = 0.03
-						production_speed_buildings_factor = 0.03
-						production_factory_efficiency_gain_factor = 0.03
-						production_factory_max_efficiency_factor = 0.03 
+						industrial_capacity_dockyard = 0.05
+						industrial_capacity_factory = 0.05
+						production_speed_buildings_factor = 0.05
+						production_factory_efficiency_gain_factor = 0.05
+						production_factory_max_efficiency_factor = 0.05 
 					}
 				}
 

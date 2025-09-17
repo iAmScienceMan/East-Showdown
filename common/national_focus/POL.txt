@@ -385,9 +385,13 @@ focus_tree = {
 			custom_effect_tooltip = Pol_refugee_camp_tt
 			custom_effect_tooltip = Pol_we_will_be_ready_to_kal
 			hidden_effect = {
-				add_ideas = {
-					POL_Refugee_camp_preparation
+				add_timed_idea = {
+					idea = POL_Refugee_camp_preparation
+					days = 20
 				}
+				#add_ideas = {
+				#	POL_Refugee_camp_preparation
+				#}
 			}
 		}
 		cost = 0.5
@@ -645,6 +649,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_War_in_a_neighboring_country"
 			country_event = {
 				id = pol.37
+				days = 1
 			}
 			#add_timed_idea = {
 			#	idea = POL_refugees_from_ukraine
