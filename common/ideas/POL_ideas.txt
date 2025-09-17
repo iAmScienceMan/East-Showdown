@@ -515,7 +515,7 @@ ideas = {
 						stability_factor = -0.15
 						consumer_goods_factor = 0.15
 						monthly_population = 0.55
-						fascism_drift = 0.04
+						fascism_drift = 0.05
 					}
 				}
 				POL_refugees_from_ukraine_always1 = {
@@ -531,7 +531,7 @@ ideas = {
 						stability_factor = -0.1
 						consumer_goods_factor = 0.1
 						monthly_population = 0.6
-						fascism_drift = 0.03
+						fascism_drift = 0.04
 					}
 				}
 				POL_refugees_from_ukraine_always2 = {
@@ -547,7 +547,7 @@ ideas = {
 						stability_factor = -0.05
 						consumer_goods_factor = 0.05
 						monthly_population = 0.65
-						fascism_drift = 0.02
+						fascism_drift = 0.03
 					}
 				}
 				POL_refugees_from_ukraine_always3 = {
@@ -560,9 +560,10 @@ ideas = {
 					}
 					modifier = {
 						political_power_gain = -0.1
+						stability_factor = -0.03
 						consumer_goods_factor = 0.03
 						monthly_population = 0.65
-						fascism_drift = 0.01
+						fascism_drift = 0.02
 					}
 				}
 				POL_refugees_from_ukraine_always4 = {
@@ -574,8 +575,9 @@ ideas = {
 						always = yes
 					}
 					modifier = {
-						political_power_gain = -0.1
-						consumer_goods_factor = 0.01
+						political_power_gain = -0.05
+						stability_factor = -0.03
+						consumer_goods_factor = 0.03
 						monthly_population = 0.65
 						fascism_drift = 0.01
 					}
@@ -589,6 +591,8 @@ ideas = {
 						always = yes
 					}
 					modifier = {
+						stability_factor = -0.03
+						consumer_goods_factor = 0.03
 						monthly_population = 0.65
 						industrial_capacity_dockyard = 0.05
 						industrial_capacity_factory = 0.05
