@@ -643,11 +643,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_War_in_a_neighboring_country"
-			add_timed_idea = {
-				idea = POL_refugees_from_ukraine
-				days = 124
+			country_event = {
+				id = pol.37
 			}
-			add_ideas = POL_refugees_from_ukraine_always
+			#add_timed_idea = {
+			#	idea = POL_refugees_from_ukraine
+			#	days = 124
+			#}
+			#add_ideas = POL_refugees_from_ukraine_always
 			hidden_effect = {
 				country_event = {
 					id = pol_falanga.0
@@ -2893,8 +2896,12 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Cancel_all_restrictions_on_Ukrainians"
-			add_stability = 0.03
-			custom_effect_tooltip = POL_ukro_refugees_tt
+			swap_ideas = {
+				remove_idea = POL_refugees_from_ukraine_always
+				add_idea = POL_refugees_from_ukraine_always1
+			}
+			#add_stability = 0.03
+			#custom_effect_tooltip = POL_ukro_refugees_tt
 			hidden_effect = {
 				country_event = {
 					id = pol.36
@@ -3316,17 +3323,21 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Organize_a_refugee_assistance_center"
-			remove_ideas = {
-				POL_refugees_from_ukraine_always
-				POL_Refugee_camp_preparation
+			swap_ideas = {
+				remove_idea = POL_refugees_from_ukraine_always1
+				add_idea = POL_refugees_from_ukraine_always2
 			}
-			set_variable = {var = POL_refugee_centers_consumer_goods_factor value = 0.15}
-			set_variable = {var = POL_refugee_centers_political_power_factor value = -0.15}
-			set_variable = {var = POL_refugee_monthly_population value = 0.1}
-			set_variable = {var = POL_refugee_stability_factor value = -0.15}
-			add_dynamic_modifier = {
-				modifier = POL_refugee_centers
-			}
+			#remove_ideas = {
+			#	POL_refugees_from_ukraine_always
+			#	POL_Refugee_camp_preparation
+			#}
+			#set_variable = {var = POL_refugee_centers_consumer_goods_factor value = 0.15}
+			#set_variable = {var = POL_refugee_centers_political_power_factor value = -0.15}
+			#set_variable = {var = POL_refugee_monthly_population value = 0.1}
+			#set_variable = {var = POL_refugee_stability_factor value = -0.15}
+			#add_dynamic_modifier = {
+			#	modifier = POL_refugee_centers
+			#}
 		}
 		cost = 0.7
 		x = 2
@@ -3349,7 +3360,11 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Simplify_the_bureaucracy_for_refugees"
-			custom_effect_tooltip = POL_ukro_refugees_tt
+			swap_ideas = {
+				remove_idea = POL_refugees_from_ukraine_always2
+				add_idea = POL_refugees_from_ukraine_always3
+			}
+			#custom_effect_tooltip = POL_ukro_refugees_tt
 			48 = { 
 				add_manpower = 45000
 			}
@@ -3375,7 +3390,11 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Schools_and_kindergartens_for_refugees"
-			custom_effect_tooltip = POL_ukro_refugees_tt
+			#custom_effect_tooltip = POL_ukro_refugees_tt
+			swap_ideas = {
+				remove_idea = POL_refugees_from_ukraine_always3
+				add_idea = POL_refugees_from_ukraine_always4
+			}
 			48 = { 
 				add_manpower = 25000
 			}
@@ -3401,11 +3420,15 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Integrate_refugees_into_the_economy"
-			add_ideas = POL_ukr_refugees_into_economy
-			add_offsite_building = {
-				type = industrial_complex
-				level = 1
+			swap_ideas = {
+				remove_idea = POL_refugees_from_ukraine_always4
+				add_idea = POL_refugees_from_ukraine_always5
 			}
+			#add_ideas = POL_ukr_refugees_into_economy
+			#add_offsite_building = {
+			#	type = industrial_complex
+			#	level = 1
+			#}
 			country_event = { id = pol.31 }
 		}
 		cost = 1.8

@@ -782,15 +782,23 @@ country_event = {
 	id = pol.31
 	title = pol.31.t
 	desc = pol.31.d
+	picture = GFX_country_event_POL_31
 	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
+	immediate = {
+		hidden_effect = {
+			add_stability = 0.03
+		}
+	}
 	option = {
 		name = pol.31.a
-		add_political_power = -25
-		add_stability = 0.02
-		custom_effect_tooltip = POL_refugee_integration_improved
+		#add_political_power = -25
+		#add_stability = 0.02
+		#custom_effect_tooltip = POL_refugee_integration_improved
+		effect_tooltip = {
+			add_stability = 0.03
+		}
 	}
 }
 
@@ -953,6 +961,42 @@ country_event = {
 	}
 
 
+}
+
+country_event = {
+	id = pol.37
+	title = pol.37.t
+	desc = pol.37.d
+	picture = GFX_country_event_POL_37
+	is_triggered_only = yes
+	fire_only_once = yes
+	immediate = {
+		hidden_effect = {
+			add_ideas = POL_refugees_from_ukraine_always
+			add_timed_idea = {
+				idea = POL_refugees_from_ukraine
+				days = 124
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.009
+			}
+		}
+	}
+	option = {
+		name = pol.37.a
+		effect_tooltip = {
+			add_ideas = POL_refugees_from_ukraine_always
+			add_timed_idea = {
+				idea = POL_refugees_from_ukraine
+				days = 124
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.01
+			}
+		}
+	}
 }
 
 

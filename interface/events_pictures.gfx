@@ -2420,6 +2420,16 @@ spriteTypes = {
 		name = "GFX_country_event_POL_36"
 		textureFile = "gfx/event_pictures/POL/event_36.jpg"
 	}
+
+	spriteType = {
+		name = "GFX_country_event_POL_37"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_37.dds"
+	}
+
+	spriteType = {
+		name = "GFX_country_event_POL_31"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_31.dds"
+	}
 	
 	SpriteType = {
 		name = "POL_Falanga_modifer_GFX"

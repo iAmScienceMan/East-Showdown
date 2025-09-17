@@ -511,10 +511,91 @@ ideas = {
 						always = yes
 					}
 					modifier = {
-						political_power_gain = -0.05
-						consumer_goods_factor = 0.1
+						political_power_gain = -0.25
+						stability_factor = -0.15
+						consumer_goods_factor = 0.15
+						monthly_population = 0.55
+						fascism_drift = 0.04
 					}
-
+				}
+				POL_refugees_from_ukraine_always1 = {
+					picture = GFX_idea_POL_refugees_from_ukraine_always
+					allowed = {
+						always = no
+					}
+					visible = {
+						always = yes
+					}
+					modifier = {
+						political_power_gain = -0.2
+						stability_factor = -0.1
+						consumer_goods_factor = 0.1
+						monthly_population = 0.6
+						fascism_drift = 0.03
+					}
+				}
+				POL_refugees_from_ukraine_always2 = {
+					picture = GFX_idea_POL_refugees_from_ukraine_always
+					allowed = {
+						always = no
+					}
+					visible = {
+						always = yes
+					}
+					modifier = {
+						political_power_gain = -0.15
+						stability_factor = -0.05
+						consumer_goods_factor = 0.05
+						monthly_population = 0.65
+						fascism_drift = 0.02
+					}
+				}
+				POL_refugees_from_ukraine_always3 = {
+					picture = GFX_idea_POL_refugees_from_ukraine_always
+					allowed = {
+						always = no
+					}
+					visible = {
+						always = yes
+					}
+					modifier = {
+						political_power_gain = -0.1
+						consumer_goods_factor = 0.03
+						monthly_population = 0.65
+						fascism_drift = 0.01
+					}
+				}
+				POL_refugees_from_ukraine_always4 = {
+					picture = GFX_idea_POL_refugees_from_ukraine_always
+					allowed = {
+						always = no
+					}
+					visible = {
+						always = yes
+					}
+					modifier = {
+						political_power_gain = -0.1
+						consumer_goods_factor = 0.01
+						monthly_population = 0.65
+						fascism_drift = 0.01
+					}
+				}
+				POL_refugees_from_ukraine_always5 = {
+					picture = GFX_idea_POL_refugees_from_ukraine_always
+					allowed = {
+						always = no
+					}
+					visible = {
+						always = yes
+					}
+					modifier = {
+						monthly_population = 0.65
+						industrial_capacity_dockyard = 0.03
+						industrial_capacity_factory = 0.03
+						production_speed_buildings_factor = 0.03
+						production_factory_efficiency_gain_factor = 0.03
+						production_factory_max_efficiency_factor = 0.03 
+					}
 				}
 
 				temporary_troop_redeployment = {
