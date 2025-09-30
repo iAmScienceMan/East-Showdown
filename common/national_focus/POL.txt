@@ -38,13 +38,17 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Condemn_South_Stream_2"
-			RUS = {
-				add_opinion_modifier = {
-					target = POL
-					modifier = POL_Condemn_South_Stream
-				}
+			custom_effect_tooltip = POL_Condemn_South_Stream_2_tt
+			custom_effect_tooltip = POL_Will_worsen_relations_with_Russia_tt
+			hidden_effect = {
+				RUS = {
+					add_opinion_modifier = {
+						target = POL
+						modifier = POL_Condemn_South_Stream
+					}
+				}				
 			}
-			add_political_power = 30
+			#add_political_power = 30
 		}
 		cost = 0.2
 		x = 0
@@ -62,9 +66,9 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_strength_in_the_OSCE_mission"
 			reduce_escalation_by_0_5 = yes
-			custom_effect_tooltip = Poland_OSCE_misson
-			custom_effect_tooltip = OSCE_save_ukraine_from_war
-			custom_effect_tooltip = Reduce_human_dies
+			#custom_effect_tooltip = Poland_OSCE_misson
+			#custom_effect_tooltip = OSCE_save_ukraine_from_war
+			#custom_effect_tooltip = Reduce_human_dies
 			#custom_effect_tooltip = Zlonsky_bro
 			army_experience = 15
 		}
@@ -82,168 +86,166 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Strengthen_the_border_with_Belarus"
 			hidden_effect = {
-			
-			58 = {
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 14647
+				58 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 14647
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 4029
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 12402
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 14552
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 14485
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 2415
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 9949
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 11452
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 969
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 349
+				}
 			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 4029
+			38 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 7264
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 840
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 4859
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 14176
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 8073
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 3584
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 12429
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 3465
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 13956
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 8745
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 13865
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 1421
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 100
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 13744
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 2641
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 13673
+				}
 			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 12402
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 14552
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 14485
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 2415
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 9949
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 11452
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 969
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 349
-			}
-		}
-		38 = {
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 7264
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 840
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 4859
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 14176
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 8073
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 3584
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 12429
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 3465
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 13956
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 8745
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 13865
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 1421
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 100
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 13744
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 2641
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				instant_build = yes
-				province = 13673
-			}
-		}
-
 		}
 		increase_escalation_by_0_5 = yes		
 		custom_effect_tooltip = cool_border_with_belarus
@@ -261,20 +263,21 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Warn_the_EU_about_war"
-			add_political_power = 20
-			custom_effect_tooltip = Warn_the_EU_tylpan
-			custom_effect_tooltip = Polska_nayobka
-			UKR = {
-				add_political_power = 25
-			add_opinion_modifier = {
-				target = POL
-				modifier = support_us
+			add_political_power = 25
+			#custom_effect_tooltip = Warn_the_EU_tylpan
+			#custom_effect_tooltip = Polska_nayobka
+			hidden_effect = {
+				UKR = {
+					add_political_power = 25
+					add_opinion_modifier = {
+						target = POL
+						modifier = support_us
+					}
+				}				
 			}
-		}
-
 			NTO = { EU_parliament_support_add_15 = yes }
+			custom_effect_tooltip = POL_improve_relations_with_ukraine_tt
 		}
-
 		cost = 0.3
 		x = -2
 		y = 3
@@ -288,7 +291,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_brigade_near_the_border_with_Belarus"
-			add_stability = 0.02
+			#add_stability = 0.02
 			increase_escalation_by_0_5 = yes
 			add_timed_idea = {
 				idea = POL_div_speed
@@ -311,19 +314,22 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Negotiations_with_Zelensky"
-			POL = {
-				add_opinion_modifier = {
-					target = UKR
-					modifier = POL_Negotiations_with_Zelensky
-				}
-			}
-			UKR = {
-				add_opinion_modifier = {
-					target = POL
-					modifier = POL_Negotiations_with_Zelensky
-				}
-			}
 			country_event = { id = pol.26 }
+			custom_effect_tooltip = POL_improve_relations_with_ukraine_tt
+			hidden_effect = {
+				POL = {
+					add_opinion_modifier = {
+						target = UKR
+						modifier = POL_Negotiations_with_Zelensky
+					}
+				}
+				UKR = {
+					add_opinion_modifier = {
+						target = POL
+						modifier = POL_Negotiations_with_Zelensky
+					}
+				}
+			}
 		}
 		cost = 0.5
 		x = 0
@@ -338,13 +344,16 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Morawiecki_visit_to_Kyiv"
-			UKR = {
-				add_opinion_modifier = {
-					target = POL
-					modifier = POL_Morawiecki_visit_to_Kyiv
-				}
+			hidden_effect = {
+				UKR = {
+					add_opinion_modifier = {
+						target = POL
+						modifier = POL_Morawiecki_visit_to_Kyiv
+					}
+				}				
 			}
 			news_event = news.183
+			custom_effect_tooltip = POL_improve_relations_with_ukraine_tt
 		}
 		cost = 0.5
 		x = 0
@@ -359,15 +368,18 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Condemn_Germany_weakness"
-			RUS = {
-				add_opinion_modifier = {
-					target = POL
-					modifier = POL_Condemn_Germany_for_being_soft_towards_Russia
-				}
+			hidden_effect = {
+				RUS = {
+					add_opinion_modifier = {
+						target = POL
+						modifier = POL_Condemn_Germany_for_being_soft_towards_Russia
+					}
+				}				
 			}
-			custom_effect_tooltip = Pol_conflict_with_Germany
+			#custom_effect_tooltip = Pol_conflict_with_Germany
 			NTO = { EU_parliament_support_add_15 = yes }
-
+			custom_effect_tooltip = POL_Will_worsen_relations_with_germany_tt
+			custom_effect_tooltip = POL_Will_worsen_relations_with_Russia_tt
 		}
 		cost = 0.5
 		x = -2
@@ -383,7 +395,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Refugee_camps"
 			custom_effect_tooltip = Pol_refugee_camp_tt
-			custom_effect_tooltip = Pol_we_will_be_ready_to_kal
+			#custom_effect_tooltip = Pol_we_will_be_ready_to_kal
 			hidden_effect = {
 				add_timed_idea = {
 					idea = POL_Refugee_camp_preparation
@@ -442,9 +454,16 @@ focus_tree = {
 				amount = 1000
 				target = UKR
 			}
-			country_event = { id = pol.27 }
-
-
+			if = {
+				limit = {
+					NOT = {
+						has_completed_focus = POL_Give_Ukraine_amm_and_AT
+					}
+				}
+				country_event = { 
+					id = pol.27 
+				}
+			}
 		}
 		cost = 0.5
 		x = -2
@@ -474,7 +493,16 @@ focus_tree = {
 			POL = { add_to_variable = { ammunition_value_k = -500 } }
 			custom_effect_tooltip = UKR_plus_500_ammo
 			custom_effect_tooltip = POL_minus_500_ammo
-			country_event = { id = pol.27 }
+			if = {
+				limit = {
+					NOT = {
+						has_completed_focus = POL_Transfer_the_ADMS_to_Ukraine
+					}
+				}
+				country_event = { 
+					id = pol.27 
+				}
+			}
 		}
 		cost = 0.5
 		x = 2
@@ -492,14 +520,17 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Transfer_of_an_American_brigade_to_Poland"
+			increase_escalation_by_0_05 = yes
 			custom_effect_tooltip = POL_Wtf_is_a_kilometr
-			NTO = {
-				add_manpower = 10000
-			}
-			add_equipment_to_stockpile = {
-				type = imv_light_1_equipment
-				variant_name = "FMTV"
-				amount = 4000
+			hidden_effect = {
+				NTO = {
+					add_manpower = 1700
+				}
+				#№add_equipment_to_stockpile = {
+				#	type = imv_light_1_equipment
+				#	variant_name = "FMTV"
+				#	amount = 4000
+				#}				
 			}
 		}
 		cost = 0.5
@@ -608,19 +639,23 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Approve_Ukraine_EU_membership"
-			UKR = {
-				add_opinion_modifier = {
-					target = POL
-					modifier = UKR_POL_accepted_us_in_EU
+			hidden_effect = {
+				UKR = {
+					add_opinion_modifier = {
+						target = POL
+						modifier = UKR_POL_accepted_us_in_EU
+					}
 				}
-			}
-			RUS = {
-				add_opinion_modifier = {
-					target = POL
-					modifier = RUS_POL_accepted_ukr_in_EU
+				RUS = {
+					add_opinion_modifier = {
+						target = POL
+						modifier = RUS_POL_accepted_ukr_in_EU
+					}
 				}
 			}
 			custom_effect_tooltip = POL_accept_ukr_in_EU_tt
+			custom_effect_tooltip = POL_improve_relations_with_ukraine_tt
+			custom_effect_tooltip = POL_Will_worsen_relations_with_Russia_tt
 		}
 
 		cost = 0.5
@@ -635,7 +670,9 @@ focus_tree = {
 		prerequisite = { 
 			focus = POL_Approve_Ukraine_EU_membership 
 		}
-
+		allow_branch = {
+			has_country_flag = POl_main_focus_tree_unlock_flag
+		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = Invasion_started_tt
@@ -647,6 +684,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_War_in_a_neighboring_country"
+			set_country_flag = POl_main_focus_tree_unlock_flag
+			mark_focus_tree_layout_dirty = yes
 			country_event = {
 				id = pol.37
 				days = 1
@@ -659,7 +698,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = {
 					id = pol_falanga.0
-					days = 1
+					days = 3
 				}
 			}
 
@@ -935,8 +974,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Mobilization"
-			UKR = {
-				add_manpower = 1500
+			custom_effect_tooltip = POL_mobilisation_tt
+			hidden_effect = {
+				POL = {
+					add_manpower = -1500
+				}
+				UKR = {
+					add_manpower = 1500
+				}				
 			}
 		}
 		cost = 0.8
@@ -957,7 +1002,9 @@ focus_tree = {
 				}
 			}
 		}
-
+		allow_branch = {
+			has_country_flag = incident_in_przewodow_flag
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Incident_in_Przewodow"
 			add_stability = -0.05
@@ -1080,16 +1127,19 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Proposal_to_NATO"
-			random_list = {
-				0.80 = {
-					country_event = pol.20
-				}
-				0.15 = {
-					country_event = pol.21
-				}
-				0.05 = {
-					country_event = pol.22
-				}
+			custom_effect_tooltip = POL_Proposal_to_NATO_tt
+			hidden_effect = {
+				random_list = {
+					0.80 = {
+						country_event = pol.20
+					}
+					0.15 = {
+						country_event = pol.21
+					}
+					0.05 = {
+						country_event = pol.22
+					}
+				}				
 			}
 		}
 		cost = 1.5
@@ -1533,104 +1583,103 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Defense_from_Kaliningrad"
+			custom_effect_tooltip = cool_border_with_cal
 			hidden_effect = {
-			32 = {
-				add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
-					province = 2218
+				32 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 2218
+					}
+				}
+				37 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 13482
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 6806
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 3298
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 4314
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 13497
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 10077
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 4642
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 3523
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 13530
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 2184
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 490
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 12009
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 13525
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 6610
+					}
 				}
 			}
-			37 = {
-				add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
-					province = 13482
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
-					province = 6806
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
-					province = 3298
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
-					province = 4314
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
-					province = 13497
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
-					province = 10077
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
-					province = 4642
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
-					province = 3523
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
-					province = 13530
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
-					province = 2184
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
-					province = 490
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
-					province = 12009
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
-					province = 13525
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
-					province = 6610
-				}
-			}
-		}
-		custom_effect_tooltip = cool_border_with_cal
-			
 		}
 		cost = 1
 		x = 2
@@ -2015,7 +2064,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Activation_of_intelligence_services"
 			upgrade_intelligence_agency = upgrade_passive_defense
-			custom_effect_tooltip = POL_activation_of_intel_tt
+			#custom_effect_tooltip = POL_activation_of_intel_tt
 			country_event = { id = pol.33 }
 		}
 		cost = 0.8
@@ -2161,7 +2210,11 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Additional_NATO_troops_in_the_region"
-			NTO = { add_manpower = 7000 }
+			hidden_effect = {
+				NTO = { 
+					add_manpower = 7000 
+				}		
+			}
 			custom_effect_tooltip = POL_NTO_additional_troops_in_region
 		}
 		cost = 1
@@ -2451,9 +2504,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_New_recruitment_in_TRO"
-			add_manpower = 20000
 			hidden_effect = {
 				load_oob = POL_TRO_FOCUS
+				add_manpower = 20000
 			}
 			custom_effect_tooltip = POL_TRO_FOCUS_tt
 			
@@ -2480,38 +2533,39 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Increase_your_army"
-			add_manpower = 80000
-			ensure_unit_template_POL_Pechotniy_batalion = yes
-			ensure_unit_template_POL_Artileriyskiy_batalion = yes
-
-			add_equipment_to_stockpile = {
-				type = apc_usa_m113_equipment
-				variant_name = "M113"
-				amount = 250
-			}
-			add_equipment_to_stockpile = {
-				type = imv_light_1_equipment
-				variant_name = "FMTV"
-				amount = 2000
-			}
-			add_equipment_to_stockpile = {
-				type = usa_fgm148_javelin_equipment
-				amount = 1500
-				producer = POL
-			}
-			48 = {
-			create_unit = {
-				division = "name = \"Nova Brygada Pechotna\" division_template = \"Pechotniy batalion\" start_experience_factor = 0.4 start_equipment_factor = 0.01"
-				owner = POL
-				count = 60
-			}
-			create_unit = {
-				division = "name = \"Nova Brygada Artylerii\" division_template = \"Artileriyskiy batalion\" start_experience_factor = 0.4 start_equipment_factor = 0.01"
-				owner = POL
-				count = 20
-			}
-			}
-			
+			custom_effect_tooltip = POL_Increase_your_army_tt
+			hidden_effect = {
+				add_manpower = 80000
+				ensure_unit_template_POL_Pechotniy_batalion = yes
+				ensure_unit_template_POL_Artileriyskiy_batalion = yes
+				add_equipment_to_stockpile = {
+					type = apc_usa_m113_equipment
+					variant_name = "M113"
+					amount = 250
+				}
+				add_equipment_to_stockpile = {
+					type = imv_light_1_equipment
+					variant_name = "FMTV"
+					amount = 2000
+				}
+				add_equipment_to_stockpile = {
+					type = usa_fgm148_javelin_equipment
+					amount = 1500
+					producer = POL
+				}
+				48 = {
+					create_unit = {
+						division = "name = \"Nova Brygada Pechotna\" division_template = \"Pechotniy batalion\" start_experience_factor = 0.4 start_equipment_factor = 0.01"
+						owner = POL
+						count = 60
+					}
+					create_unit = {
+						division = "name = \"Nova Brygada Artylerii\" division_template = \"Artileriyskiy batalion\" start_experience_factor = 0.4 start_equipment_factor = 0.01"
+						owner = POL
+						count = 20
+					}
+				}
+			}	
 		}
 		cost = 3
 		x = 0
@@ -2535,41 +2589,41 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Increase_in_NATO_army_in_Poland"
+			custom_effect_tooltip = POL_Increase_in_NATO_army_in_Poland_tt
+			custom_effect_tooltip = POL_Increase_in_NATO_army_in_Poland_tt2
 			hidden_effect = {
 				NTO = {
 					load_oob = POL_NTO_help
 				}
-
-			}
-			add_equipment_to_stockpile = {
-				type = ifv_swe_cv90_equipment
-				variant_name = "BWP Borsuk"
-				amount = 1000
-			}
-			add_equipment_to_stockpile = {
-				type = apc_ger_boxer_equipment
-				variant_name = "KTO Rosomak"
-				amount = 1250
-			}
-			add_equipment_to_stockpile = {
-				type = imv_light_1_equipment
-				variant_name = "FMTV"
-				amount = 2000
-			}
-			add_equipment_to_stockpile = {
-				type = usa_fgm148_javelin_equipment
-				amount = 1500
-				producer = POL
-			}
-
-			ensure_unit_template_POL_Mechanizirovaniy_batalion_second = yes
-			48 = {
-			create_unit = {
-				division = "name = \"Nova Brygada Zmechanizowana\" division_template = \"Mechanizirovaniy batalion second\" start_experience_factor = 0.4 start_equipment_factor = 0.01"
-				owner = POL
-				count = 50
-			}
-			}
+				add_equipment_to_stockpile = {
+					type = ifv_swe_cv90_equipment
+					variant_name = "BWP Borsuk"
+					amount = 1000
+				}
+				add_equipment_to_stockpile = {
+					type = apc_ger_boxer_equipment
+					variant_name = "KTO Rosomak"
+					amount = 1250
+				}
+				add_equipment_to_stockpile = {
+					type = imv_light_1_equipment
+					variant_name = "FMTV"
+					amount = 2000
+				}
+				add_equipment_to_stockpile = {
+					type = usa_fgm148_javelin_equipment
+					amount = 1500
+					producer = POL
+				}
+				ensure_unit_template_POL_Mechanizirovaniy_batalion_second = yes
+				48 = {
+					create_unit = {
+						division = "name = \"Nova Brygada Zmechanizowana\" division_template = \"Mechanizirovaniy batalion second\" start_experience_factor = 0.4 start_equipment_factor = 0.01"
+						owner = POL
+						count = 50
+					}
+				}
+			}	
 		}
 		cost = 6
 		x = 0
@@ -2594,35 +2648,37 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			custom_effect_tooltip = POL_new_army_giant_tt
 			log = "[GetDateText]: [Root.GetName]: Focus POL_new_army_giant"
-			ensure_unit_template_POL_Abrams_Tankoviy_batalion = yes
-			ensure_unit_template_POL_Mechanizirovaniy_batalion_second = yes
-			ensure_unit_template_POL_Artileriyskiy_batalion = yes
-
-			48 = {
-				create_unit = {
-					division = "name = \"Nova Brygada Pechotna\" division_template = \"Pechotniy batalion\" start_experience_factor = 0.4 start_equipment_factor = 0.01"
-					owner = POL
-					count = 30
-				}
-				create_unit = {
-					division = "name = \"Nova Brygada Zmechanizowana\" division_template = \"Mechanizirovaniy batalion second\" start_experience_factor = 0.4 start_equipment_factor = 0.01"
-					owner = POL
-					count = 30
-				}
-				create_unit = {
-					division = "name = \"Nova Brygada Tankova\" division_template = \"Abrams Tankoviy batalion\" start_experience_factor = 0.4 start_equipment_factor = 0.01"
-					owner = POL
-					count = 30
-				}
-				create_unit = {
-					division = "name = \"Nova Brygada Artylerii\" division_template = \"Artileriyskiy batalion\" start_experience_factor = 0.4 start_equipment_factor = 0.01"
-					owner = POL
-					count = 15
+			custom_effect_tooltip = POL_new_army_giant_tt
+			custom_effect_tooltip = POL_new_army_giant_tt2
+			hidden_effect = {
+				ensure_unit_template_POL_Abrams_Tankoviy_batalion = yes
+				ensure_unit_template_POL_Mechanizirovaniy_batalion_second = yes
+				ensure_unit_template_POL_Artileriyskiy_batalion = yes
+				add_manpower = 25000
+				48 = {
+					create_unit = {
+						division = "name = \"Nova Brygada Pechotna\" division_template = \"Pechotniy batalion\" start_experience_factor = 0.4 start_equipment_factor = 0.01"
+						owner = POL
+						count = 30
+					}
+					create_unit = {
+						division = "name = \"Nova Brygada Zmechanizowana\" division_template = \"Mechanizirovaniy batalion second\" start_experience_factor = 0.4 start_equipment_factor = 0.01"
+						owner = POL
+						count = 30
+					}
+					create_unit = {
+						division = "name = \"Nova Brygada Tankova\" division_template = \"Abrams Tankoviy batalion\" start_experience_factor = 0.4 start_equipment_factor = 0.01"
+						owner = POL
+						count = 30
+					}
+					create_unit = {
+						division = "name = \"Nova Brygada Artylerii\" division_template = \"Artileriyskiy batalion\" start_experience_factor = 0.4 start_equipment_factor = 0.01"
+						owner = POL
+						count = 15
+					}
 				}
 			}
-			add_manpower = 25000
 		}
 		cost = 10	
 		x = 0
@@ -2791,7 +2847,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Nuclear_weapons_in_Poland"
 			custom_effect_tooltip = POL_Nuclear_weapons_in_Poland_3_tt
-			custom_effect_tooltip = POL_Nuclear_weapons_in_Poland_2_tt
+			#custom_effect_tooltip = POL_Nuclear_weapons_in_Poland_2_tt
 		}
 		cost = 1.5
 		x = -5
@@ -2814,10 +2870,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Start_negotiations_with_the_USA"
-			custom_effect_tooltip = POL_Nuclear_weapons_in_Poland_2_tt
-			custom_effect_tooltip = POL_Start_negotiations_with_the_USA_tt
-			custom_effect_tooltip = POL_Start_negotiations_with_the_USA_2_tt
 			increase_escalation_by_0_5 = yes
+			#custom_effect_tooltip = POL_Nuclear_weapons_in_Poland_2_tt
+			custom_effect_tooltip = POL_Start_negotiations_with_the_USA_tt
+			#custom_effect_tooltip = POL_Start_negotiations_with_the_USA_2_tt
 			hidden_effect = {
 				NTO = {
 					country_event = nto.9
@@ -2850,8 +2906,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Deployment_of_nuclear_weapons"
-			custom_effect_tooltip = POL_Deployment_of_nuclear_weapons_tt
 			increase_escalation_by_20 = yes
+			custom_effect_tooltip = POL_Deployment_of_nuclear_weapons_tt
 		}
 		cost = 0.5
 		x = 0
@@ -2878,6 +2934,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Failure"
+			reduce_escalation_by_0_5 = yes
 			custom_effect_tooltip = POL_Failure_tt
 		}
 		cost = 0.5
@@ -4443,7 +4500,7 @@ focus = {
 		hidden_effect = {
 			country_event = {
 				id = pol.10
-				days = 360
+				days = 365
 			}
 		}
 	}
@@ -4801,10 +4858,15 @@ focus = {
 focus = {
 	id = POL_Issue_of_Ukrainian_grain
 	icon = GFX_POL_Issue_of_Ukrainian_grain
+	bypass = {
+		has_country_flag = POL_farmer_strikes_on_border
+	}
 	available = {
 		has_country_flag = POL_farmer_strikes_on_border
 	}
-
+	allow_branch = {
+		has_country_flag = POL_farmer_strikes_on_border
+	}
 	prerequisite = { 
 		focus = POL_Receiving_European_investments
 	}
@@ -4828,9 +4890,12 @@ focus = {
 			id = POL_power_balance
 			value = 0.05
 		}
-		add_opinion_modifier = {
-			target = UKR
-			modifier = POL_grain_scandal_UKR
+		custom_effect_tooltip = POL_will_worsen_relations_with_ukraine_tt
+		hidden_effect = {
+			add_opinion_modifier = {
+				target = UKR
+				modifier = POL_grain_scandal_UKR
+			}			
 		}
 	}
 	cost = 0.5
@@ -4850,9 +4915,12 @@ focus = {
 			id = POL_power_balance
 			value = 0.05
 		}
-		add_opinion_modifier = {
-			target = UKR
-			modifier = POL_Grain_tranche_agreement_to_other_countries
+		custom_effect_tooltip = POL_will_worsen_relations_with_ukraine_tt
+		hidden_effect = {
+			add_opinion_modifier = {
+				target = UKR
+				modifier = POL_Grain_tranche_agreement_to_other_countries
+			}			
 		}
 	}
 	cost = 0.5
@@ -4875,6 +4943,8 @@ focus = {
 			id = POL_power_balance
 			value = -0.05
 		}
+		custom_effect_tooltip = POL_improve_relations_with_ukraine_tt
+		hidden_effect = {
 		add_opinion_modifier = {
 			target = UKR
 			modifier = POL_accept_grain_UKR
@@ -4884,6 +4954,7 @@ focus = {
 				target = UKR
 				modifier = POL_accept_grain_UKR
 			}
+		}			
 		}
 	}
 	cost = 0.5
@@ -4903,15 +4974,18 @@ focus = {
 			id = POL_power_balance
 			value = -0.05
 		}
-		add_opinion_modifier = {
-			target = UKR
-			modifier = POL_european_aid_UKR
-		}
-		UKR = {
+		custom_effect_tooltip = POL_improve_relations_with_ukraine_tt
+		hidden_effect = {
 			add_opinion_modifier = {
 				target = UKR
 				modifier = POL_european_aid_UKR
 			}
+			UKR = {
+				add_opinion_modifier = {
+					target = UKR
+					modifier = POL_european_aid_UKR
+				}
+			}			
 		}
 	}
 	cost = 0.5
@@ -5047,6 +5121,7 @@ focus = {
 	icon = GFX_POL_solve_the_farmer_problem
 	prerequisite = { 
 		focus = POL_initiate_judicial_arrests
+		focus = POL_organize_more_marches
 	}
 	completion_reward = {
 		remove_ideas = {
@@ -5054,6 +5129,9 @@ focus = {
 		}
 		add_political_power = 20
 		add_stability = 0.02
+		remove_power_balance = {
+    		id = POL_power_balance
+		}
 	}
 	cost = 1.7
 	x = 0
@@ -5103,6 +5181,13 @@ focus = {
 		log = "[GetDateText]: [Root.GetName]: POL_organize_more_marches"
 		#дебаф тут
 		custom_effect_tooltip = POL_organize_more_marches_tt
+		custom_effect_tooltip = POL_will_worsen_relations_with_ukraine_tt
+		hidden_effect = {
+			add_opinion_modifier = {
+				target = UKR
+				modifier = POL_organise_more_marches
+			}
+		}
 	}
 	cost = 0.5
 	x = 0

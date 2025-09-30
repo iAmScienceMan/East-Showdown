@@ -125,7 +125,7 @@ POL_contracts_western_category = {
 
 POL_energy_category = {
 	icon = GFX_WAR
-	visible_when_empty = yes
+	#visible_when_empty = yes
 	allowed = {
 		original_tag = POL
 	}

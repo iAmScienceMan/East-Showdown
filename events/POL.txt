@@ -198,23 +198,40 @@ country_event = {
 	id = pol.10
 	title = pol.10.t
     desc = pol.10.d
-	picture = GFX_country_event_149
-    fire_only_once = no
+	picture = GFX_country_event_POL_10
 	is_triggered_only = yes
-	
+	fire_only_once = yes
+	immediate = {
+		hidden_effect = {
+			add_offsite_building = { 
+				type = industrial_complex 
+				level = 11
+			}
+			add_offsite_building = { 
+				type = arms_factory 
+				level = 3
+			}
+			add_offsite_building = { 
+				type = dockyard 
+				level = 1
+			}
+		}
+	}
     option = {
         name = pol.10.a
-		add_offsite_building = { 
-			type = industrial_complex 
-			level = 11
-		}
-		add_offsite_building = { 
-			type = arms_factory 
-			level = 3
-		}
-		add_offsite_building = { 
-			type = dockyard 
-			level = 1
+		effect_tooltip = {
+			add_offsite_building = { 
+				type = industrial_complex 
+				level = 11
+			}
+			add_offsite_building = { 
+				type = arms_factory 
+				level = 3
+			}
+			add_offsite_building = { 
+				type = dockyard 
+				level = 1
+			}
 		}
     }
 }
@@ -394,22 +411,17 @@ country_event = {
 	title = pol.16.t
     desc = pol.16.d
 	picture = GFX_country_event_pol_016
-    fire_only_once = no
+    fire_only_once = yes
 	is_triggered_only = yes
-
-	trigger = {
-	}
-	
-    option = {
-        name = pol.16.a
-		set_country_flag = POL_farmer_strikes_on_border
-		custom_effect_tooltip = POL_farmer_stikes_tt
-		set_power_balance = {
-	        id = POL_power_balance
-        }
+	immediate = {
 		hidden_effect = {
+			set_country_flag = POL_farmer_strikes_on_border
+			set_power_balance = {
+	        	id = POL_power_balance
+        	}
 			mark_focus_tree_layout_dirty = yes
 			complete_national_focus = POL_Farmers_are_blocking_borders
+			complete_national_focus = POL_Issue_of_Ukrainian_grain
 			ROOT = {
 				add_ideas = {
 					POL_farmer_strikes_on_border
@@ -419,8 +431,13 @@ country_event = {
 				add_ideas = {
 					UKR_farmer_strikes_on_border
 				}
-			}
+			}			
 		}
+	}
+    option = {
+        name = pol.16.a
+		#custom_effect_tooltip = POL_farmer_stikes_tt
+		custom_effect_tooltip = DEN_unlocks_bop_decisions_tt
     }
 }
 
@@ -458,10 +475,15 @@ country_event = {
 	id = pol.19
 	title = pol.19.t
 	desc = pol.19.d
-	fire_only_once = no
+	fire_only_once = yes
 	is_triggered_only = yes
-	picture = GFX_country_event_150
-
+	picture = GFX_country_event_POL_19
+	immediate = {
+		hidden_effect = {
+			set_country_flag = incident_in_przewodow_flag
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
     option = {
         name = pol.19.a
 		log = "[GetDateText]: [This.GetName]: pol.19.a executed"
@@ -701,16 +723,26 @@ country_event = {
 	id = pol.26
 	title = pol.26.t
 	desc = pol.26.d
-	
+	picture = GFX_country_event_POL_26
 	is_triggered_only = yes
 	fire_only_once = yes
-	
+	immediate = {
+		hidden_effect = {
+			add_political_power = 50
+			add_stability = 0.05
+			UKR = {
+				add_political_power = 65
+			}
+		}
+	}
 	option = {
 		name = pol.26.a
-		add_political_power = 50
-		add_stability = 0.05
-		UKR = {
-			add_political_power = 65
+		effect_tooltip = {
+			add_political_power = 50
+			add_stability = 0.05
+			UKR = {
+				add_political_power = 65
+			}
 		}
 	}
 }
@@ -719,7 +751,7 @@ country_event = {
 	id = pol.27
 	title = pol.27.t
 	desc = pol.27.d
-	
+	picture = GFX_country_event_POL_27
 	is_triggered_only = yes
 	fire_only_once = yes
 	

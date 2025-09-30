@@ -514,7 +514,7 @@ ideas = {
 						political_power_gain = -0.25
 						stability_factor = -0.15
 						consumer_goods_factor = 0.15
-						monthly_population = 0.55
+						monthly_population = 0.5
 						fascism_drift = 0.05
 					}
 				}
@@ -530,7 +530,7 @@ ideas = {
 						political_power_gain = -0.2
 						stability_factor = -0.1
 						consumer_goods_factor = 0.1
-						monthly_population = 0.6
+						monthly_population = 0.5
 						fascism_drift = 0.04
 					}
 				}
@@ -546,7 +546,7 @@ ideas = {
 						political_power_gain = -0.15
 						stability_factor = -0.05
 						consumer_goods_factor = 0.05
-						monthly_population = 0.65
+						monthly_population = 0.5
 						fascism_drift = 0.03
 					}
 				}
@@ -562,7 +562,7 @@ ideas = {
 						political_power_gain = -0.1
 						stability_factor = -0.03
 						consumer_goods_factor = 0.03
-						monthly_population = 0.65
+						monthly_population = 0.5
 						fascism_drift = 0.02
 					}
 				}
@@ -578,7 +578,7 @@ ideas = {
 						political_power_gain = -0.05
 						stability_factor = -0.03
 						consumer_goods_factor = 0.03
-						monthly_population = 0.65
+						monthly_population = 0.5
 						fascism_drift = 0.01
 					}
 				}
@@ -593,12 +593,12 @@ ideas = {
 					modifier = {
 						stability_factor = -0.03
 						consumer_goods_factor = 0.03
-						monthly_population = 0.65
-						industrial_capacity_dockyard = 0.05
-						industrial_capacity_factory = 0.05
-						production_speed_buildings_factor = 0.05
-						production_factory_efficiency_gain_factor = 0.05
-						production_factory_max_efficiency_factor = 0.05 
+						monthly_population = 0.5
+						industrial_capacity_dockyard = 0.03
+						industrial_capacity_factory = 0.03
+						production_speed_buildings_factor = 0.03
+						production_factory_efficiency_gain_factor = 0.03
+						production_factory_max_efficiency_factor = 0.03 
 					}
 				}
 

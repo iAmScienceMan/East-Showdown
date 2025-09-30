@@ -2425,10 +2425,25 @@ spriteTypes = {
 		name = "GFX_country_event_POL_37"
 		textureFile = "gfx/event_pictures/POL/country_event_POL_37.dds"
 	}
-
+	spriteType = {
+		name = "GFX_country_event_POL_26"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_26.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_POL_27"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_27.dds"
+	}
 	spriteType = {
 		name = "GFX_country_event_POL_31"
 		textureFile = "gfx/event_pictures/POL/country_event_POL_31.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_POL_10"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_10.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_POL_19"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_19.dds"
 	}
 	
 	SpriteType = {
