@@ -980,7 +980,7 @@ POL_UKR_FAC: "Антироссийская коалиция"
 POL_farmer_strikes_on_border: "Забастовка на границе"
 POL_try_to_negotate_tt: "Мы попытаемся договориться с §7фермерами§!"
 POL_organize_more_marches_tt: "Мы поможем §7фермерам§! организовывать марши"
-POL_ban_confederate_party_tt: "§YПартия конфедиратов§! будет §Rзапрещена§!"
+POL_ban_confederate_party_tt: "Партия §g«Конфедерация свободы и независимости»§! будет §Rзапрещена§!"
 RUS_corruption_lower_tt: "§YСнизит уровень коррупции§!."
 
 LPR_shall_be_together_trigger_tt: "В §YЛуганской Республике§! прошел §Oреферендум о присоединении§! к [RUS.GetFlag] §3России§!."
@@ -1688,3 +1688,4 @@ POL_Will_worsen_relations_with_germany_tt: "§gУхудшит отношения
 POL_Proposal_to_NATO_tt: "Мы запросим помощи у [NTO.GetFlag]§BНАТО§!"
 POL_mobilisation_tt: "Будет отправленно на Украину:\n§G1500§! £GFX_divisions солдат"
 POL_will_worsen_relations_with_ukraine_tt: "§gУхудшит отношения с Украиной§!"
+POL_this_decision_has_long_term_consequences: "§RЭто решение имеет долгоиграющие последствия...§!"

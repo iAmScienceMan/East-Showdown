@@ -1,4 +1,5 @@
 #Реворк Польши: Петлюра, Jason, Hershel
+#Доработка Польши: kit mab
 focus_tree = {
 	id = poland
 	continuous_focus_position = {
@@ -552,7 +553,7 @@ focus_tree = {
 				add_political_power = 50
 			}
 		}
-		cost = 0.5
+		cost = 0.2
 		x = -2
 		y = 9
 		relative_position_id = POL_Happy_New_Year_Poland
@@ -572,7 +573,7 @@ focus_tree = {
 			NTO = { EU_parliament_support_add_15 = yes }
 
 		}
-		cost = 0.5
+		cost = 0.2
 		x = 2
 		y = 9
 		relative_position_id = POL_Happy_New_Year_Poland
@@ -587,7 +588,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Declare_the_end_of_the_pandemic"
 			remove_ideas = POL_COVID
 		}
-		cost = 0.3
+		cost = 0.2
 		x = 4
 		y = 9
 		relative_position_id = POL_Happy_New_Year_Poland
@@ -606,7 +607,7 @@ focus_tree = {
 			custom_effect_tooltip = OSCE_call
 			reduce_escalation_by_0_05 = yes
 		}
-		cost = 0.3
+		cost = 0.2
 		x = -2
 		y = 10
 		relative_position_id = POL_Happy_New_Year_Poland
@@ -623,7 +624,7 @@ focus_tree = {
 			NTO = { EU_parliament_support_add_15 = yes }
 
 		}
-		cost = 0.5
+		cost = 0.2
 		x = 2
 		y = 10
 		relative_position_id = POL_Happy_New_Year_Poland
@@ -658,7 +659,7 @@ focus_tree = {
 			custom_effect_tooltip = POL_Will_worsen_relations_with_Russia_tt
 		}
 
-		cost = 0.5
+		cost = 0.2
 		x = 0
 		y = 11
 		relative_position_id = POL_Happy_New_Year_Poland
@@ -778,9 +779,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_increase_the_army_budget"
-			add_political_power = -100
-			add_ideas = POL_army_budget
-			army_experience = 500
+			increase_military = yes
+			add_political_power = -250
+			army_experience = 50
+			#add_ideas = POL_army_budget
 		}
 		cost = 1
 		x = 0
@@ -1768,7 +1770,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_Buy_Abrams"
 			add_equipment_to_stockpile = {
 				type = tank_usa_abrams_equipment
-				amount = 249
+				amount = 250
 				variant_name = "M1A2 SEP v3"
 				producer = NTO
 			}
@@ -3186,7 +3188,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_send_AntiAir"
 			custom_effect_tooltip = POL_send_AntiAir_tt
 		}
-		cost = 1
+		cost = 0.5
 		x = 1
 		y = 8
 		relative_position_id = POL_Cancel_all_restrictions_on_Ukrainians
@@ -3281,7 +3283,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_send_Helicopter"
 			custom_effect_tooltip = POL_send_Helicopter_tt
 		}
-		cost = 1
+		cost = 0.5
 		x = 0
 		y = 9
 		relative_position_id = POL_Cancel_all_restrictions_on_Ukrainians
@@ -3304,7 +3306,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_send_aircraft"
 			custom_effect_tooltip = POL_send_aircraft_tt
 		}
-		cost = 1.5
+		cost = 0.5
 		x = 0
 		y = 10
 		relative_position_id = POL_Cancel_all_restrictions_on_Ukrainians
@@ -3329,7 +3331,7 @@ focus_tree = {
 			custom_effect_tooltip = POL_send_Western_equipment_tt
 			custom_effect_tooltip = POL_send_Western_equipment_2_tt
 		}
-		cost = 1.2
+		cost = 0.5
 		x = 0
 		y = 11
 		relative_position_id = POL_Cancel_all_restrictions_on_Ukrainians
@@ -3720,7 +3722,10 @@ focus = {
 	available = {
 	}
 	allow_branch = {
-		has_country_flag = POL_parlament_elections_started
+		OR = {
+			has_country_flag = POL_parlament_elections_started
+			has_country_flag = POL_parlament_elections_ended
+		}
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus POL_Start_race"
@@ -3833,7 +3838,8 @@ focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus POL_Once_again_emphasize_support_for_Ukraine"
 		#custom_effect_tooltip = Zlonsky_bro
-		custom_effect_tooltip = UKR_cool_bro
+		#custom_effect_tooltip = UKR_cool_bro
+		custom_effect_tooltip = POL_improve_relations_with_ukraine_tt
 	}
 	cost = 0.5
 	x = -2
@@ -3853,8 +3859,7 @@ focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus POL_More_aggressive_rhetoric"
 		#custom_effect_tooltip = Zlonsky_bro
 		increase_escalation_by_1_5 = yes
-		add_political_power = 25
-
+		add_war_support = 0.005
 	}
 	
 	cost = 0.5
@@ -3909,9 +3914,9 @@ focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus POL_Fight_with_pro_Russian_force"
 		add_popularity = {
 			ideology = fascism
-			popularity = -0.05
+			popularity = -0.03
 		}
-		add_stability = 0.02
+		add_stability = -0.03
 		country_event = pol.23
 	}
 	cost = 0.5
@@ -4472,8 +4477,9 @@ focus = {
 		}
 	}
 	completion_reward = {
-		add_ideas = {
-			POL_regional_development
+		add_timed_idea = {
+			idea = POL_regional_development
+			days = 365
 		}
 	}
 	cost = 3
@@ -4579,7 +4585,9 @@ focus = {
 				instant_build = yes
 			}
 		}
-		country_event = { id = pol.32 }
+		country_event = { 
+			id = pol.32 
+		}
 		add_political_power = 100
 	}
 	cost = 2
@@ -4705,14 +4713,17 @@ focus = {
 		add_ideas = {
 			POL_trade_deepening_with_UKR
 		}
-		add_opinion_modifier = {
-			target = UKR
-			modifier = POL_trade_deepening_UKR
-		}
-		UKR = {
+		custom_effect_tooltip = POL_improve_relations_with_ukraine_tt
+		hidden_effect = {
 			add_opinion_modifier = {
-				target = POL
+				target = UKR
 				modifier = POL_trade_deepening_UKR
+			}
+			UKR = {
+				add_opinion_modifier = {
+					target = POL
+					modifier = POL_trade_deepening_UKR
+				}
 			}
 		}
 	}
@@ -5147,14 +5158,6 @@ focus = {
 	mutually_exclusive = {
 		focus = POL_ignore_farmers
 		focus = POL_send_police
-	}
-	available = {
-		ROOT = {
-			is_power_balance_side_active = {
-				id = POL_power_balance
-				side = POL_middle_right_side_range
-			}
-		}
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: POL_support_farmers"

@@ -1692,3 +1692,4 @@
  POL_Proposal_to_NATO_tt: "We will request assistance from [NTO.GetFlag]§BNATO§!"
  POL_mobilisation_tt: "Will be sent to Ukraine: §G1500§! £GFX_divisions soldiers"
  POL_will_worsen_relations_with_ukraine_tt: "§gWorsen relations with Ukraine§!"
+ POL_this_decision_has_long_term_consequences: "§RThis decision has long-term consequences...§!"

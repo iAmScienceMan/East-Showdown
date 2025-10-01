@@ -1594,10 +1594,7 @@ spriteTypes = {
 	}
 
 	
-	spriteType = {
-		name = "GFX_country_event_pol_016"
-		texturefile = "gfx/event_pictures/country_event_pol_016.dds"
-	}
+	
 	
 	spriteType = {
 		name = "GFX_news_event_197"
@@ -2416,41 +2413,14 @@ spriteTypes = {
 		name = "GFX_news_event_1021"
 		textureFile = "gfx/event_pictures/news_event_1021.dds"
 	}
-	spriteType = {
-		name = "GFX_country_event_POL_36"
-		textureFile = "gfx/event_pictures/POL/event_36.jpg"
-	}
-
-	spriteType = {
-		name = "GFX_country_event_POL_37"
-		textureFile = "gfx/event_pictures/POL/country_event_POL_37.dds"
-	}
-	spriteType = {
-		name = "GFX_country_event_POL_26"
-		textureFile = "gfx/event_pictures/POL/country_event_POL_26.dds"
-	}
-	spriteType = {
-		name = "GFX_country_event_POL_27"
-		textureFile = "gfx/event_pictures/POL/country_event_POL_27.dds"
-	}
-	spriteType = {
-		name = "GFX_country_event_POL_31"
-		textureFile = "gfx/event_pictures/POL/country_event_POL_31.dds"
-	}
-	spriteType = {
-		name = "GFX_country_event_POL_10"
-		textureFile = "gfx/event_pictures/POL/country_event_POL_10.dds"
-	}
-	spriteType = {
-		name = "GFX_country_event_POL_19"
-		textureFile = "gfx/event_pictures/POL/country_event_POL_19.dds"
-	}
-	
 	SpriteType = {
 		name = "POL_Falanga_modifer_GFX"
 		texturefile = "gfx/event_pictures/POL/ultra_poland.png"
 	}
-
+	spriteType = {
+		name = "GFX_country_event_pol_falanga_0"
+		textureFile = "gfx/event_pictures/POL/country_event_pol_falanga_0.dds"
+	}
 	spriteType = {
 		name = "GFX_country_event_falanga_1"
 		textureFile = "gfx/event_pictures/POL/event_falanga.jpg"
@@ -2665,8 +2635,73 @@ spriteTypes = {
 		name = "GFX_country_event_ukr_783"
 		textureFile = "gfx/event_pictures/country_event_ukr_783.jpg"
 	}
+	#Cобытие Польши/Poland's event
 	spriteType = {
-		name = "GFX_country_event_pol.6"
-		textureFile = "gfx/event_pictures/POL/country_event_pol.6.dds"
+		name = "GFX_country_event_POL_6"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_6.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_POL_10"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_10.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_POL_11"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_11.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_POL_12"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_12.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_POL_14"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_14.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_POL_16"
+		texturefile = "gfx/event_pictures/POL/country_event_POL_16.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_POL_19"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_19.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_POL_23"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_23.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_POL_26"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_26.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_POL_27"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_27.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_POL_28"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_28.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_POL_30"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_30.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_POL_31"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_31.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_POL_32"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_32.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_POL_33"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_33.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_POL_34"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_34.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_POL_37"
+		textureFile = "gfx/event_pictures/POL/country_event_POL_37.dds"
 	}
 }

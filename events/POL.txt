@@ -74,7 +74,7 @@ country_event = {
 	id = pol.6
 	title = pol.6.t
     desc = pol.6.d
-	picture = GFX_country_event_pol.6
+	picture = GFX_country_event_POL_6
 	
     fire_only_once = yes
 	is_triggered_only = yes
@@ -90,26 +90,29 @@ country_event = {
 	id = pol.7
 	title = pol.7.t
     desc = pol.7.d
-	picture = GFX_country_event_149
+	picture = GFX_country_event_POL_34
     fire_only_once = yes
 	is_triggered_only = yes
-	
+	immediate = {
+		hidden_effect = {
+			random_list = {
+				80 = {
+					country_event = {
+						id = pol.8
+						days = 1
+					}
+				}
+				20 = {
+					country_event = {
+						id = pol.9
+						days = 1
+					}
+				}
+			}			
+		}
+	}
     option = {
         name = pol.7.a
-		random_list = {
-            50 = {
-                country_event = {
-					id = pol.8
-					days = 1
-				}
-			}
-			50 = {
-				country_event = {
-					id = pol.9
-					days = 1
-				}
-			}
-		}
     }
 }
 #Запрос на снарягу успешно приняли
@@ -117,7 +120,7 @@ country_event = {
 	id = pol.8
 	title = pol.8.t
     desc = pol.8.d
-	picture = GFX_country_event_149
+	picture = GFX_country_event_POL_34
     fire_only_once = no
 	is_triggered_only = yes
 	
@@ -179,7 +182,7 @@ country_event = {
 	id = pol.9
 	title = pol.9.t
     desc = pol.9.d
-	picture = GFX_country_event_149
+	picture = GFX_country_event_POL_34
     fire_only_once = no
 	is_triggered_only = yes
 	
@@ -240,30 +243,24 @@ country_event = {
 	id = pol.11
 	title = pol.11.t
     desc = pol.11.d
-	picture = GFX_country_event_149
+	picture = GFX_country_event_POL_11
     fire_only_once = no
 	is_triggered_only = yes
-
-	trigger = {
-	}
-	
     option = {
         name = pol.11.a
-		hidden_effect = {
-			set_country_flag = POL_parlament_elections_started
-			set_variable = {
-				var = POL_pis_support
-				value = 50
-			}
-			set_variable = {
-				var = POL_platform_support
-				value = 0
-			}
-			mark_focus_tree_layout_dirty = yes
+		set_country_flag = POL_parlament_elections_started
+		mark_focus_tree_layout_dirty = yes
+		set_variable = {
+			var = POL_pis_support
+			value = 50
+		}
+		set_variable = {
+			var = POL_platform_support
+			value = 0
 		}
 		complete_national_focus = POL_Start_race
 		activate_mission = lose_of_popularity
-		activate_mission = POL_elections
+		activate_mission = POL_elections	
     }
 }
 
@@ -272,7 +269,7 @@ country_event = {
 	id = pol.12
 	title = pol.12.t
     desc = pol.12.d
-	picture = GFX_country_event_149
+	picture = GFX_country_event_POL_12
     fire_only_once = no
 	is_triggered_only = yes
 
@@ -288,7 +285,6 @@ country_event = {
 		set_country_flag = POL_parlament_elections_ended
 		clr_country_flag = POL_parlament_elections_started
 		complete_national_focus = POL_Pobeda_platforms
-		
 		deactivate_advisor = POL_Mateusz_Morawiecki
 		deactivate_advisor = POL_Zbigniew_Rau
 		deactivate_advisor = POL_Magdalena_Rzeczkowska
@@ -309,7 +305,7 @@ country_event = {
 	id = pol.13
 	title = pol.13.t
     desc = pol.13.d
-	picture = GFX_country_event_149
+	picture = GFX_country_event_POL_14
     fire_only_once = no
 	is_triggered_only = yes
 
@@ -336,7 +332,6 @@ country_event = {
 		set_country_flag = POL_parlament_elections_ended
 		clr_country_flag = POL_parlament_elections_started
 		complete_national_focus = POL_Partial_victory_PiS
-
 		activate_mission = third_kabinet_tuska
     }
 }
@@ -345,7 +340,7 @@ country_event = {
 	id = pol.14
 	title = pol.14.t
     desc = pol.14.d
-	picture = GFX_country_event_149
+	picture = GFX_country_event_POL_14
     fire_only_once = no
 	is_triggered_only = yes
 
@@ -379,7 +374,7 @@ country_event = {
 	id = pol.15
 	title = pol.15.t
     desc = pol.15.d
-	picture = GFX_country_event_149
+	picture = GFX_country_event_POL_12
     fire_only_once = no
 	is_triggered_only = yes
 
@@ -410,7 +405,7 @@ country_event = {
 	id = pol.16
 	title = pol.16.t
     desc = pol.16.d
-	picture = GFX_country_event_pol_016
+	picture = GFX_country_event_POL_16
     fire_only_once = yes
 	is_triggered_only = yes
 	immediate = {
@@ -577,7 +572,7 @@ country_event = {
     desc = pol.23.d
     fire_only_once = no
 	is_triggered_only = yes
-
+	picture = GFX_country_event_POL_23
 	trigger = {
 	}
 	
@@ -585,25 +580,24 @@ country_event = {
         name = pol.23.a
 		log = "[GetDateText]: [This.GetName]: pol.23.a executed"
 		custom_effect_tooltip = POL_ban_confederate_party_tt
-		add_political_power = -100
+		add_political_power = -250
+		add_stability = -0.1
+		add_war_support = -0.05
+		add_popularity = {
+			ideology = fascism
+			popularity = -0.1
+		}
 		hidden_effect = {
 			set_party_name = {
 				ideology = fascism
 				long_name = Party_Forbidden_name
 				name = Party_Forbidden_name
 			}
-			add_stability = 0.05
-			add_war_support = -0.05
-			add_popularity = {
-				ideology = fascism
-				popularity = -0.5
-			}
 		}
     }
 	option = {
         name = pol.23.b
 		log = "[GetDateText]: [This.GetName]: pol.23.b executed"
-		add_political_power = 50
     }
 }
 
@@ -764,17 +758,14 @@ country_event = {
 	id = pol.28
 	title = pol.28.t
 	desc = pol.28.d
-	
+	picture = GFX_country_event_POL_28
 	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
 		name = pol.28.a
-		add_stability = -0.03
-		add_political_power = -50
-		hidden_effect = {
-			
-		}
+		add_stability = -0.01
+		add_political_power = -25
 	}
 }
 
@@ -798,15 +789,15 @@ country_event = {
 	id = pol.30
 	title = pol.30.t
 	desc = pol.30.d
-	
+	picture = GFX_country_event_POL_30
 	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
 		name = pol.30.a
-		add_war_support = 0.1
-		add_stability = -0.05
-		custom_effect_tooltip = POL_military_readiness_increased
+		add_war_support = 0.005
+		add_stability = 0.0005
+		#custom_effect_tooltip = POL_military_readiness_increased
 	}
 }
 
@@ -838,15 +829,21 @@ country_event = {
 	id = pol.32
 	title = pol.32.t
 	desc = pol.32.d
-	
+	picture = GFX_country_event_POL_32
 	is_triggered_only = yes
 	fire_only_once = yes
-	
+	immediate = {
+		hidden_effect = {
+			add_stability = 0.01
+			add_political_power = 25
+		}
+	}
 	option = {
 		name = pol.32.a
-		add_political_power = 75
-		add_stability = 0.03
-		custom_effect_tooltip = POL_military_industry_boost
+		effect_tooltip = {
+			add_stability = 0.01
+			add_political_power = 25			
+		}
 	}
 }
 
@@ -854,15 +851,16 @@ country_event = {
 	id = pol.33
 	title = pol.33.t
 	desc = pol.33.d
-	
+	picture = GFX_country_event_POL_33	
 	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
 		name = pol.33.a
-		add_war_support = 0.05
-		add_stability = -0.02
-		custom_effect_tooltip = POL_intelligence_services_activated
+		add_stability = 0.005
+		#add_war_support = 0.05
+		#add_stability = -0.02
+		#custom_effect_tooltip = POL_intelligence_services_activated
 	}
 }
 
@@ -870,16 +868,12 @@ country_event = {
 	id = pol.34
 	title = pol.34.t
 	desc = pol.34.d
-	
+	picture = GFX_country_event_POL_34
 	is_triggered_only = yes
 	fire_only_once = yes
-	
-	option = {
-		name = pol.34.a
-		add_stability = 0.05
-		add_war_support = 0.05
-		custom_effect_tooltip = POL_nato_equipment_received
+	immediate = {
 		hidden_effect = {
+			add_war_support = 0.005
 			add_equipment_to_stockpile = {
 				type = tank_usa_abrams_equipment
 				variant_name = "M1A2 SEP v3"
@@ -897,7 +891,31 @@ country_event = {
 				variant_name = "M109A6 Paladin"
 				amount = 24
 				producer = NTO
+			}	
+		}
+	}
+	option = {
+		name = pol.34.a
+		effect_tooltip = {
+			add_war_support = 0.005
+			add_equipment_to_stockpile = {
+				type = tank_usa_abrams_equipment
+				variant_name = "M1A2 SEP v3"
+				amount = 20
+				producer = NTO
 			}
+			add_equipment_to_stockpile = {
+				type = ifv_usa_bradley_equipment
+				variant_name = "M2A3 Bradley"
+				amount = 50
+				producer = NTO
+			}
+			add_equipment_to_stockpile = {
+				type = sp_artillery_ifv_usa_bradley_equipment
+				variant_name = "M109A6 Paladin"
+				amount = 24
+				producer = NTO
+			}	
 		}
 	}
 }
@@ -966,11 +984,8 @@ country_event = {
 	
 	option = {
 		name = pol.36.a
-		add_political_power = -25
-		add_popularity = {
-			ideology = fascism
-			popularity = 0.001
-		}
+		add_stability = -0.01
+		add_political_power = -150
 		45 = {
 			#add_manpower = -1
 		}
@@ -978,15 +993,7 @@ country_event = {
 
 	option = {
 		name = pol.36.b
-		add_stability = -0.005
-		add_popularity = {
-			ideology = democratic
-			popularity = -0.001
-		}
-		add_popularity = {
-			ideology = fascism
-			popularity = 0.003
-		}
+		add_stability = -0.03
 		45 = {
 			#add_manpower = -1
 		}
@@ -1014,6 +1021,7 @@ country_event = {
 				popularity = 0.009
 			}
 			remove_ideas = POL_Ukrainians_at_work
+			add_stability = -0.15
 		}
 	}
 	option = {
@@ -1028,6 +1036,7 @@ country_event = {
 				ideology = fascism
 				popularity = 0.01
 			}
+			add_stability = -0.15
 		}
 	}
 }
@@ -1037,25 +1046,21 @@ country_event = {
 	id = pol_falanga.0
 	title = pol_falanga.0.t
 	desc = pol_falanga.0.d
-	
+	picture = GFX_country_event_pol_falanga_0
 	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
 		name = pol_falanga.0.a
-		add_popularity = {
-			ideology = fascism
-			popularity = 0.05
-		}
+		add_stability = 0.01
 	}	
 
 	option = {
 		name = pol_falanga.0.b
-		add_political_power = 15
-		add_stability = 0.015
+		add_stability = -0.01
 		add_popularity = {
-			ideology = democratic
-			popularity = 0.025
+			ideology = fascism
+			popularity = 0.001
 		}
 		hidden_effect = {
 			country_event = {
@@ -1064,6 +1069,7 @@ country_event = {
 				days = 100
 			}
 		}
+		custom_effect_tooltip = POL_this_decision_has_long_term_consequences
 	}
 
 }
