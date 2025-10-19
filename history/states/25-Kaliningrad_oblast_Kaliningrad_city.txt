@@ -13,6 +13,7 @@ state = {
 		owner = RUS 
 		
 		victory_points = { 1198 10 }
+		victory_points = { 2572 10 }
 		victory_points = { 5644 15 }
 		victory_points = { 8854 1 }
 		victory_points = { 11681 50 }
