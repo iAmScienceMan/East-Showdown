@@ -1,0 +1,18 @@
+state = { 
+	id = 1068 
+	name = "STATE_1068" 
+	manpower = 22632 
+	
+	state_category = rural 
+	history = { 
+		owner = BLR 
+		
+		buildings = { 
+			electrical_substation = 1 
+			infrastructure = 3 
+		}
+		
+		add_core_of = BLR 
+	}
+	provinces = { 1020 3420 6058 7779 11351 12681 12781 13534 13618 13630 }
+}
