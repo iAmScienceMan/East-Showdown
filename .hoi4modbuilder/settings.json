@@ -7,6 +7,6 @@
   "wipsEnabled": [],
   "MAP_SCALE_PIXEL_TO_KM": 0.514,
   "WATER_HEIGHT": 9.5,
-  "WATER_HEIGHT_minLandOffset": 0.2,
-  "WATER_HEIGHT_maxWaterOffset": 0.0
+  "WATER_HEIGHT_minLandOffset": -0.4,
+  "WATER_HEIGHT_maxWaterOffset": 0.1
 }
