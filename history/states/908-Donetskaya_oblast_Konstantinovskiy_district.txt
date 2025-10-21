@@ -8,7 +8,6 @@ state = {
 		owner = UKR 
 		
 		victory_points = { 783 3 }
-		victory_points = { 1353 3 }
 		victory_points = { 7227 2 }
 		victory_points = { 7571 2 }
 		victory_points = { 9558 1 }
