@@ -10,7 +10,7 @@
   "WATER_HEIGHT_minLandOffsetV2": -0.5,
   "WATER_HEIGHT_maxWaterOffsetV2": 0.5,
   "provinceLand_HSVRanges": {
-    "minDif": 0.3,
+    "minDif": 0.4,
     "maxDif": "Infinity",
     "minH": 0.0,
     "maxH": 0.99999999999999989,
@@ -20,27 +20,27 @@
     "maxV": 1.0
   },
   "provinceSea_HSVRanges": {
-    "minDif": 0.02,
+    "minDif": 0.4,
     "maxDif": "Infinity",
     "minH": 0.0,
     "maxH": 0.99999999999999989,
     "minS": 0.5,
     "maxS": 1.0,
     "minV": 0.0,
-    "maxV": 0.25
+    "maxV": 0.2
   },
   "provinceLake_HSVRanges": {
-    "minDif": 0.02,
+    "minDif": 0.4,
     "maxDif": "Infinity",
     "minH": 0.0,
     "maxH": 0.99999999999999989,
     "minS": 0.5,
     "maxS": 1.0,
     "minV": 0.0,
-    "maxV": 0.25
+    "maxV": 0.2
   },
   "state_HSVRanges": {
-    "minDif": 0.5,
+    "minDif": 0.4,
     "maxDif": "Infinity",
     "minH": 0.0,
     "maxH": 0.99999999999999989,
@@ -50,7 +50,7 @@
     "maxV": 1.0
   },
   "region_HSVRanges": {
-    "minDif": 0.5,
+    "minDif": 0.4,
     "maxDif": "Infinity",
     "minH": 0.0,
     "maxH": 0.99999999999999989,
