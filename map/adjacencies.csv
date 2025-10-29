@@ -22,10 +22,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13972;4730;sea;17944;4519;2135;4523;2130;;Syzran railway bridge
 6300;1987;sea;17959;4363;1865;4368;1860;;Saratov Hydroelectric Power Plant
 1987;1453;sea;17959;4367;1856;4368;1853;;Balakovo Bridge 2
-6476;9636;sea;17964;4138;1756;4142;1754;;Saratov New Bridge 1
-9636;1736;sea;17964;4143;1753;4145;1750;;Saratov New Bridge 2
+6476;1736;sea;17964;4138;1756;4146;1750;;Saratov New Bridge 1
 9818;14624;sea;17964;4117;1739;4120;1734;;Saratov bridge
-154;4326;sea;17964;4103;1713;4113;1711;;Saratov railway bridge
+154;4326;sea;17964;4102;1714;4114;1711;;Saratov railway bridge
 11129;1726;sea;2038;4103;1455;4100;1449;;
 12959;1878;sea;17954;3911;1124;3917;1121;;Volgograd Hydroelectric Power Plant
 6871;15645;sea;10011;3895;1100;3898;1098;;Volgograd Dancing Bridge
@@ -79,10 +78,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 11567;17202;sea;17896;1599;213;1611;235;;Romanian sand spit 2
 7817;16230;sea;17460;3009;765;3012;762;;Taganrog bridge
 18883;18881;sea;18844;3176;765;3177;762;;Rostov West Bridge
-18884;18879;sea;18846;3185;770;3186;767;;Rostov Sivers Bridge
-6364;18879;sea;18846;3188;771;3189;768;;Rostov Voroshilovskiy Bridge
-18887;18862;sea;18846;3197;773;3197;770;;Rostov Protochniy Railway Bridge North
-18862;14047;sea;18846;3197;769;3196;766;;Rostov Protochniy Railway Bridge South
+18884;18879;sea;18846;3183;769;3185;766;;Rostov Sivers Bridge
+6364;18862;sea;18846;3188;771;3189;768;;Rostov Voroshilovskiy Bridge
+18887;14047;sea;18846;3197;773;3196;766;;Rostov Protochniy Railway Bridge North
 18906;11155;sea;18846;3207;778;3208;775;;Rostov Aksayskiy Bridge
 18930;4414;sea;18846;3220;785;3220;782;;Rostov East Bridge North
 4414;8083;sea;18846;3222;778;3224;775;;Rostov East Bridge South
@@ -168,6 +166,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2030;4612;sea;17243;675;162;673;159;;
 16952;4828;sea;11134;669;237;668;233;;
 11509;2323;sea;17532;439;239;437;242;;
-12251;16849;sea;17549;-1;-1;-1;-1;;
+12251;16849;sea;17549;370;265;371;269;;
 18017;264;sea;6316;-1;-1;-1;-1;;
 17996;17990;sea;12131;872;2557;874;2560;;
+7055;2319;sea;9581;129;478;132;479;;
+6305;7952;sea;4328;275;353;277;350;;
+2603;2962;sea;15863;22;884;23;888;;

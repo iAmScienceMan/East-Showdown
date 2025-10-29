@@ -1,0 +1,21 @@
+state = { 
+	id = 1126 
+	name = "STATE_1126" 
+	manpower = 1 
+	
+	state_category = rural 
+	history = { 
+		owner = POL 
+		
+		victory_points = { 2305 10 }
+		victory_points = { 5028 5 }
+		
+		buildings = { 
+			electrical_substation = 1 
+			infrastructure = 3 
+		}
+		
+		add_core_of = POL 
+	}
+	provinces = { 601 610 1389 2305 2851 2855 3188 4576 5028 5533 7480 10804 11847 12735 13664 13706 13731 13788 13842 20166 20173 20174 20175 20176 20177 }
+}

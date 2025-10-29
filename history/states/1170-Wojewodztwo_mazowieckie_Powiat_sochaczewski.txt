@@ -1,0 +1,18 @@
+state = { 
+	id = 1170 
+	name = "STATE_1170" 
+	manpower = 1 
+	
+	state_category = rural 
+	history = { 
+		owner = POL 
+		
+		buildings = { 
+			electrical_substation = 1 
+			infrastructure = 3 
+		}
+		
+		add_core_of = POL 
+	}
+	provinces = { 540 7566 14287 14305 14330 }
+}
