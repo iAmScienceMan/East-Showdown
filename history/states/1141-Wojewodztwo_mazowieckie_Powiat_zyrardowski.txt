@@ -14,5 +14,5 @@ state = {
 		
 		add_core_of = POL 
 	}
-	provinces = { 4079 4311 4677 8159 11651 }
+	provinces = { 4311 4677 }
 }

@@ -14,5 +14,5 @@ state = {
 		
 		add_core_of = BLR 
 	}
-	provinces = { 20086 20087 }
+	provinces = { 4638 7884 }
 }
