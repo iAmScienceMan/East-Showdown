@@ -6025,7 +6025,7 @@
 6024;37;144;159;land;false;plains;2
 6025;126;169;72;land;false;urban;3
 6026;213;208;184;land;false;plains;4
-6027;241;148;162;land;false;forest;1
+6027;241;148;162;land;false;plains;1
 6028;179;204;243;land;false;forest;1
 6029;164;240;50;land;false;plains;2
 6030;125;253;9;land;false;industrial;3
@@ -6755,7 +6755,7 @@
 6754;175;104;75;land;false;plains;2
 6755;212;31;157;land;false;village;3
 6756;111;193;202;land;false;village;2
-6757;227;238;145;land;false;urban;1
+6757;227;238;145;land;false;residential;1
 6758;246;138;191;land;false;plains;3
 6759;203;188;165;land;false;plains;2
 6760;220;231;198;land;false;plains;2
@@ -10974,7 +10974,7 @@
 10973;52;204;139;land;false;forest;1
 10974;124;233;86;land;false;village;2
 10975;210;186;169;land;true;industrial;2
-10976;157;239;192;land;false;forest;1
+10976;157;239;192;land;false;plains;1
 10977;84;199;66;land;false;urban;2
 10978;247;103;151;land;false;plains;2
 10979;2;189;180;land;false;plains;2
@@ -19449,11 +19449,11 @@
 19448;242;49;208;land;false;plains;1
 19449;12;154;191;land;false;forest;1
 19450;179;10;211;land;false;forest;1
-19451;6;42;146;land;false;urban;1
+19451;6;42;146;land;false;residential;1
 19452;220;49;115;land;false;plains;1
 19453;92;134;179;land;false;plains;1
 19454;223;10;58;land;false;plains;1
-19455;177;33;248;land;false;urban;1
+19455;177;33;248;land;false;village;1
 19456;20;130;30;land;false;forest;1
 19457;160;66;125;land;false;plains;1
 19458;51;133;199;land;false;plains;1
@@ -19556,7 +19556,7 @@
 19555;38;243;158;land;false;plains;1
 19556;245;196;220;land;false;plains;1
 19557;222;29;251;land;false;urban;1
-19558;34;175;42;land;false;urban;1
+19558;34;175;42;land;false;residential;1
 19559;237;106;135;land;false;plains;1
 19560;28;196;152;land;false;plains;1
 19561;149;43;140;land;false;plains;1
@@ -19569,7 +19569,7 @@
 19568;17;238;3;land;false;forest;3
 19569;87;22;66;land;false;forest;3
 19570;150;53;180;land;false;forest;3
-19571;42;204;112;land;false;urban;1
+19571;42;204;112;land;false;residential;1
 19572;76;93;185;land;false;forest;1
 19573;84;91;200;land;false;forest;1
 19574;34;183;107;land;false;forest;1
