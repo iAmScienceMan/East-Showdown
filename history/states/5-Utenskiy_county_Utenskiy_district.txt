@@ -1,0 +1,21 @@
+state = { 
+	id = 5 
+	name = "STATE_5" 
+	manpower = 130613 
+	
+	state_category = city 
+	
+	resources = { chromium = 15 } 
+	history = { 
+		owner = LIT 
+		
+		buildings = { 
+			electrical_substation = 1 
+			infrastructure = 3 
+			industrial_complex = 1 
+		}
+		
+		add_core_of = LIT 
+	}
+	provinces = { 2093 6249 9761 10619 11005 11306 11814 13116 }
+}
