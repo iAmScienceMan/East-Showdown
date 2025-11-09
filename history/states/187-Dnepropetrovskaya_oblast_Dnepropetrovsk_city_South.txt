@@ -8,13 +8,12 @@ state = {
 	history = { 
 		owner = UKR 
 		
+		victory_points = { 1285 10 }
 		victory_points = { 2105 10 }
 		victory_points = { 3671 1 }
-		victory_points = { 4493 15 }
 		victory_points = { 6308 10 }
 		victory_points = { 6609 70 }
 		victory_points = { 11683 1 }
-		victory_points = { 18751 15 }
 		victory_points = { 18763 10 }
 		
 		buildings = { 

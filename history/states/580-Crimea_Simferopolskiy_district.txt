@@ -8,7 +8,7 @@ state = {
 		owner = RUS 
 		
 		victory_points = { 742 5 }
-		victory_points = { 3527 5 }
+		victory_points = { 3527 10 }
 		victory_points = { 6858 5 }
 		
 		buildings = { 
