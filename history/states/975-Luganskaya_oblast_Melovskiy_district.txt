@@ -13,6 +13,7 @@ state = {
 		buildings = { 
 			electrical_substation = 1 
 			infrastructure = 1 
+			radar_station = 1 
 			4032 = { bunker = 1 }
 			5572 = { bunker = 2 }
 			5772 = { bunker = 2 }

@@ -24,6 +24,7 @@ state = {
 			ammunition_silo = 1 
 			solar_power_plant = 2 
 			anti_air_building = 2 
+			radar_station = 1 
 			16558 = { naval_base = 4 }
 		}
 		

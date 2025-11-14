@@ -35,6 +35,7 @@ state = {
 			rocket_site = 1 
 			air_base = 2 
 			arms_factory = 1 
+			radar_station = 2 
 		}
 		
 		add_core_of = UKR 

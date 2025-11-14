@@ -31,6 +31,7 @@ state = {
 			anti_air_building = 3 
 			industrial_complex = 1 
 			fuel_silo = 1 
+			radar_station = 1 
 			2468 = { naval_base = 5 }
 			12655 = { naval_base = 5 }
 			18780 = { naval_base = 1 }
