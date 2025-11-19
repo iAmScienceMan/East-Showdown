@@ -39,6 +39,7 @@ state = {
 			ammunition_silo = 2 
 			fuel_silo = 4 
 			rocket_site = 1 
+			radar_station = 1 
 			1142 = { bunker = 3 }
 			1427 = { bunker = 4 }
 			1661 = { bunker = 6 }
