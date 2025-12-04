@@ -15,6 +15,10 @@ state = {
 			electrical_substation = 1 
 			infrastructure = 3 
 			air_base = 1 
+			6579 = { }
+			7117 = { }
+			14498 = { }
+			17099 = { }
 		}
 		
 		add_core_of = RUS 

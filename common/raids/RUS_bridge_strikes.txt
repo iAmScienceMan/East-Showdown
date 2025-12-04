@@ -4,7 +4,7 @@ types = {
 	#Киевская ГЭС (Киев)
 	rus_strikes_on_bridges_KYIV_HYDRA_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -38,7 +38,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -142,7 +141,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KYIV_HYDRA_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -176,16 +175,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -276,7 +274,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KYIV_HYDRA_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -310,7 +308,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -411,7 +408,7 @@ types = {
 	#Каневская ГЭС (Канев)
 	rus_strikes_on_bridges_KANIVSKAYA_HPP_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -445,7 +442,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -549,7 +545,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KANIVSKAYA_HPP_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -583,16 +579,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -683,7 +678,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KANIVSKAYA_HPP_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -717,7 +712,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -818,7 +812,7 @@ types = {
 	#Кременчугская ГЭС (Кременчуг)
 	rus_strikes_on_bridges_KREMENCHUG_HPP_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -852,7 +846,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -956,7 +949,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KREMENCHUG_HPP_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -990,16 +983,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -1090,7 +1082,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KREMENCHUG_HPP_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -1124,7 +1116,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -1225,7 +1216,7 @@ types = {
 	#Среднепровская ГЭС (Камянское)
 	rus_strikes_on_bridges_SREDNEDNEPR_HPP_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -1259,7 +1250,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -1363,7 +1353,7 @@ types = {
 	}
 	rus_strikes_on_bridges_SREDNEDNEPR_HPP_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -1397,16 +1387,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -1497,7 +1486,7 @@ types = {
 	}
 	rus_strikes_on_bridges_SREDNEDNEPR_HPP_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -1531,7 +1520,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -1632,7 +1620,7 @@ types = {
 	#ДнепроГЕС ГЭС (Запорожье)
 	rus_strikes_on_bridges_DNIPRO_HPP_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -1666,7 +1654,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -1770,7 +1757,7 @@ types = {
 	}
 	rus_strikes_on_bridges_DNIPRO_HPP_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -1804,16 +1791,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -1904,7 +1890,7 @@ types = {
 	}
 	rus_strikes_on_bridges_DNIPRO_HPP_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -1938,7 +1924,7 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
+			
 		}
 		unit_requirements = {
 			equipment = {
@@ -2041,7 +2027,7 @@ types = {
 	#Мост Северный (Киев)
 	rus_strikes_on_bridges_KYIV_NORTH_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -2075,7 +2061,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -2179,7 +2164,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KYIV_NORTH_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -2213,16 +2198,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -2313,7 +2297,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KYIV_NORTH_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -2347,7 +2331,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -2448,7 +2431,7 @@ types = {
 	#Мост Петровский (Киев)
 	rus_strikes_on_bridges_KYIV_PRENORTH_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -2482,7 +2465,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -2586,7 +2568,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KYIV_PRENORTH_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -2620,16 +2602,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -2720,7 +2701,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KYIV_PRENORTH_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -2754,7 +2735,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -2855,7 +2835,7 @@ types = {
 	#Мост Подольский (Киев)
 	rus_strikes_on_bridges_KYIV_PODOLSK_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -2889,7 +2869,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -2993,7 +2972,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KYIV_PODOLSK_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -3027,16 +3006,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -3127,7 +3105,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KYIV_PODOLSK_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -3161,7 +3139,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -3262,7 +3239,7 @@ types = {
 	#Мост Метро (Киев)
 	rus_strikes_on_bridges_KYIV_METRO_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -3296,7 +3273,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -3400,7 +3376,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KYIV_METRO_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -3434,16 +3410,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -3534,7 +3509,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KYIV_METRO_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -3568,7 +3543,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -3669,7 +3643,7 @@ types = {
 	#Мост Патона (Киев)
 	rus_strikes_on_bridges_KYIV_PATON_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -3703,7 +3677,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -3807,7 +3780,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KYIV_PATON_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -3841,16 +3814,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -3941,7 +3913,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KYIV_PATON_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -3975,7 +3947,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -4076,7 +4047,7 @@ types = {
 	#Мост Дарницкий (Киев)
 	rus_strikes_on_bridges_KYIV_DARNITSKIY_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -4110,7 +4081,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -4214,7 +4184,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KYIV_DARNITSKIY_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -4248,16 +4218,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -4348,7 +4317,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KYIV_DARNITSKIY_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -4382,7 +4351,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -4483,7 +4451,7 @@ types = {
 	#Мост Южный (Киев)
 	rus_strikes_on_bridges_KYIV_SOUTH_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -4517,7 +4485,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -4621,7 +4588,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KYIV_SOUTH_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -4655,16 +4622,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -4755,7 +4721,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KYIV_SOUTH_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -4789,7 +4755,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -4890,7 +4855,7 @@ types = {
 	#Мост Каневский (Канев)
 	rus_strikes_on_bridges_CHERKASI_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -4924,7 +4889,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -5028,7 +4992,7 @@ types = {
 	}
 	rus_strikes_on_bridges_CHERKASI_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -5062,16 +5026,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -5162,7 +5125,7 @@ types = {
 	}
 	rus_strikes_on_bridges_CHERKASI_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -5196,7 +5159,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -5297,7 +5259,7 @@ types = {
 	#Мост Крюковский (Кременчуг)
 	rus_strikes_on_bridges_KREMENCHUG_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -5331,7 +5293,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -5435,7 +5396,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KREMENCHUG_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -5469,16 +5430,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -5569,7 +5529,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KREMENCHUG_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -5603,7 +5563,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -5704,7 +5663,7 @@ types = {
 	#Мост Камянский (Камянское)
 	rus_strikes_on_bridges_KAMENSKOE_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -5738,7 +5697,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -5842,7 +5800,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KAMENSKOE_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -5876,16 +5834,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -5976,7 +5933,7 @@ types = {
 	}
 	rus_strikes_on_bridges_KAMENSKOE_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -6010,7 +5967,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -6111,7 +6067,7 @@ types = {
 	#Мост Кайдакский (Днепр)
 	rus_strikes_on_bridges_DNIPRO_KAYDAK_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -6145,7 +6101,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -6249,7 +6204,7 @@ types = {
 	}
 	rus_strikes_on_bridges_DNIPRO_KAYDAK_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -6283,16 +6238,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -6383,7 +6337,7 @@ types = {
 	}
 	rus_strikes_on_bridges_DNIPRO_KAYDAK_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -6417,7 +6371,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -6518,7 +6471,7 @@ types = {
 	#Мост Амурский (Днепр)
 	rus_strikes_on_bridges_DNIPRO_AMUR_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -6552,7 +6505,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -6656,7 +6608,7 @@ types = {
 	}
 	rus_strikes_on_bridges_DNIPRO_AMUR_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -6690,16 +6642,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -6790,7 +6741,7 @@ types = {
 	}
 	rus_strikes_on_bridges_DNIPRO_AMUR_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -6824,7 +6775,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -6925,7 +6875,7 @@ types = {
 	#Мост Центральный (Днепр)
 	rus_strikes_on_bridges_DNIPRO_CENTRAL_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -6959,7 +6909,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -7063,7 +7012,7 @@ types = {
 	}
 	rus_strikes_on_bridges_DNIPRO_CENTRAL_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -7097,16 +7046,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -7197,7 +7145,7 @@ types = {
 	}
 	rus_strikes_on_bridges_DNIPRO_CENTRAL_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -7231,7 +7179,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -7332,7 +7279,7 @@ types = {
 	#Мост Мерефо-Херсонский (Днепр)
 	rus_strikes_on_bridges_DNIPRO_MEREFO_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -7366,7 +7313,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -7470,7 +7416,7 @@ types = {
 	}
 	rus_strikes_on_bridges_DNIPRO_MEREFO_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -7504,16 +7450,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -7604,7 +7549,7 @@ types = {
 	}
 	rus_strikes_on_bridges_DNIPRO_MEREFO_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -7638,7 +7583,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -7739,7 +7683,7 @@ types = {
 	#Мост Южный (Днепр)
 	rus_strikes_on_bridges_DNIPRO_SOUTH_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -7773,7 +7717,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -7877,7 +7820,7 @@ types = {
 	}
 	rus_strikes_on_bridges_DNIPRO_SOUTH_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -7911,16 +7854,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -8011,7 +7953,7 @@ types = {
 	}
 	rus_strikes_on_bridges_DNIPRO_SOUTH_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -8045,7 +7987,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -8146,7 +8087,7 @@ types = {
 	#Мост Преображенского (Запорожье)
 	rus_strikes_on_bridges_ZAPOROZHYE_FIRST_STRAIT_rc = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -8180,7 +8121,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
@@ -8284,7 +8224,7 @@ types = {
 	}
 	rus_strikes_on_bridges_ZAPOROZHYE_FIRST_STRAIT_bl = {
 		days_to_prepare = 2
-		days_re_enable = 90
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -8318,16 +8258,15 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
-				type = { rus_ballistic_missile_equipment }
+				type = { ballistic_missile_equipment }
 				amount = { min = 12 }
 			}
 		}
 		additional_equipment = {
-			rus_ballistic_missile_equipment = 16
+			ballistic_missile_equipment = 16
 		}
 		starting_point = {
 			types = {
@@ -8418,7 +8357,7 @@ types = {
 	}
 	rus_strikes_on_bridges_ZAPOROZHYE_FIRST_STRAIT_drone = {
 		days_to_prepare = 2
-		days_re_enable = 45
+		days_re_enable = 0
 		category = on_bridge_strikes
 		command_power = 0
 		# ai_will_do = {
@@ -8452,7 +8391,6 @@ types = {
 			type = air
 		}
 		unit_model = {
-			type = equipment
 		}
 		unit_requirements = {
 			equipment = {
