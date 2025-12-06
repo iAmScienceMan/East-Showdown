@@ -18,5 +18,5 @@ state = {
 		add_core_of = NTO 
 		add_core_of = LIT 
 	}
-	provinces = { 18165 }
+	provinces = { 18165 21021 21022 21023 }
 }
