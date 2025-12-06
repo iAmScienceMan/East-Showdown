@@ -1,7 +1,7 @@
 state = { 
 	id = 1164 
 	name = "STATE_1164" 
-	manpower = 1 
+	manpower = 151178 
 	
 	state_category = rural 
 	history = { 
@@ -14,5 +14,5 @@ state = {
 		
 		add_core_of = POL 
 	}
-	provinces = { 1637 2060 6949 8719 10509 12820 }
+	provinces = { 1637 2060 4704 6949 8719 12820 }
 }
