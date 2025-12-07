@@ -5,12 +5,14 @@ state = {
 	
 	state_category = military_facility 
 	
-	resources = { rubber = 500 }
-	resources = { oil = 500 }
-	resources = { chromium = 500 }
-	resources = { tungsten = 500 }
-	resources = { aluminium = 100 } 
-	resources = { steel = 1000 } 
+	resources = { 
+		rubber = 500 
+		oil = 500 
+		chromium = 500 
+		tungsten = 500 
+		aluminium = 100 
+		steel = 1000 
+	} 
 	history = { 
 		owner = NTO 
 		
@@ -20,6 +22,7 @@ state = {
 			electrical_substation = 1 
 			ammunition_silo = 2 
 			air_base = 1 
+			infrastructure = 3 
 		}
 		
 		add_core_of = NTO 
