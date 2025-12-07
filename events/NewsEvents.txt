@@ -3383,6 +3383,13 @@ news_event = {
 		trigger = {
 		    tag = UKR
 		}
+		hidden_effect = {
+			UKR = {
+				delete_unit_template_and_units = {
+					division_template = "Batalyon NGU Spetsilnogo naznacheniya «Azov»"
+				}
+			}
+		}
 	}
 
 	option = {
@@ -3394,6 +3401,13 @@ news_event = {
 				has_war_with = RUS
 			}
 		}
+		hidden_effect = {
+			UKR = {
+				delete_unit_template_and_units = {
+					division_template = "Batalyon NGU Spetsilnogo naznacheniya «Azov»"
+				}
+			}
+		}
 	}
 
 	option = {
@@ -3403,6 +3417,13 @@ news_event = {
 			NOT = { 
 				has_war_with = UKR
 				has_war_with = RUS
+			}
+		}
+		hidden_effect = {
+			UKR = {
+				delete_unit_template_and_units = {
+					division_template = "Batalyon NGU Spetsilnogo naznacheniya «Azov»"
+				}
 			}
 		}
 	}	
@@ -6023,6 +6044,9 @@ news_event = {
 				tag = WGN
 			}
 		}
+		hidden_effect = {
+			load_oob = UKR_mariupol_azov
+		}
     }
 
 	option	= {
@@ -6033,6 +6057,9 @@ news_event = {
 				tag = UKR
 			    is_in_faction_with = NTO
 			}
+		}
+		hidden_effect = {
+			load_oob = UKR_mariupol_azov
 		}
     }
 	
@@ -6052,6 +6079,9 @@ news_event = {
 					is_in_faction_with = NTO
 				}
 			}
+		}
+		hidden_effect = {
+			load_oob = UKR_mariupol_azov
 		}
     }
 }
