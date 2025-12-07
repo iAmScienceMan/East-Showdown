@@ -1,0 +1,20 @@
+state = { 
+	id = 1385 
+	name = "STATE_1385" 
+	manpower = 143725 
+	
+	state_category = rural 
+	history = { 
+		owner = BLR 
+		
+		victory_points = { 13456 20 }
+		
+		buildings = { 
+			electrical_substation = 1 
+			infrastructure = 3 
+		}
+		
+		add_core_of = BLR 
+	}
+	provinces = { 763 1754 4131 5794 7417 7745 7793 8409 9878 11581 12426 13437 13456 }
+}
