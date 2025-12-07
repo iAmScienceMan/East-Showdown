@@ -21057,15 +21057,15 @@
 21056;221;143;200;land;false;forest;1
 21057;210;108;190;land;false;forest;1
 21058;194;147;128;land;false;forest;1
-21059;200;84;193;land;false;unknown;5
-21060;92;241;196;land;false;unknown;5
-21061;168;118;220;land;false;unknown;5
+21059;200;84;193;land;false;plains;5
+21060;92;241;196;land;false;urban;5
+21061;168;118;220;land;false;urban;5
 21062;141;185;235;land;false;forest;5
-21063;241;162;240;land;false;unknown;5
+21063;241;162;240;land;false;industrial;5
 21064;225;88;149;land;false;urban;5
-21065;249;112;151;land;false;unknown;5
+21065;249;112;151;land;false;urban;5
 21066;160;247;176;land;false;forest;5
-21067;253;175;186;land;false;unknown;5
+21067;253;175;186;land;false;village;5
 21068;156;220;103;land;false;marsh;5
 21069;191;153;110;land;false;forest;5
 21070;137;121;210;land;false;forest;5
@@ -21077,7 +21077,7 @@
 21076;143;196;209;land;false;plains;5
 21077;84;211;123;land;false;forest;5
 21078;125;173;193;land;false;forest;5
-21079;205;223;86;land;false;unknown;5
+21079;205;223;86;land;false;industrial;5
 21080;239;215;182;land;false;plains;5
 21081;121;157;218;land;false;plains;5
 21082;199;132;121;land;false;forest;5
@@ -21360,7 +21360,7 @@
 21359;222;123;255;land;false;plains;5
 21360;140;104;57;land;false;forest;5
 21361;45;138;237;land;false;forest;5
-21362;204;162;99;land;false;unknown;5
+21362;204;162;99;land;false;plains;5
 21363;9;213;107;land;false;plains;5
 21364;19;184;82;land;false;plains;5
 21365;162;122;97;land;false;plains;5
@@ -21469,7 +21469,7 @@
 21468;152;149;113;land;false;forest;5
 21469;66;158;113;land;false;forest;5
 21470;97;40;249;land;false;plains;5
-21471;247;137;152;land;false;unknown;5
+21471;247;137;152;land;false;forest;5
 21472;156;170;15;land;false;plains;5
 21473;138;51;158;land;false;forest;5
 21474;0;135;9;land;false;forest;5
@@ -21515,3 +21515,6 @@
 21514;62;178;252;land;false;forest;5
 21515;3;10;176;land;false;forest;5
 21516;228;141;73;land;false;marsh;5
+21517;52;74;19;land;false;plains;5
+21518;30;223;36;land;false;plains;5
+21519;154;110;154;land;false;forest;5
