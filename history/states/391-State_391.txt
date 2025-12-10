@@ -5,14 +5,6 @@ state = {
 	
 	state_category = military_facility 
 	
-	resources = { 
-		rubber = 500 
-		oil = 500 
-		chromium = 500 
-		tungsten = 500 
-		aluminium = 100 
-		steel = 1000 
-	} 
 	history = { 
 		owner = NTO 
 		
